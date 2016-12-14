@@ -395,7 +395,7 @@
         [ "2: Best film never nominated for Best Picture?", "", "1", "" ],
         [ "3: Thoughts on new Aquaman costume?", "", "", "1" ],
         [ "4: Ultimate DC/Marvel Crossover Movie?", "", "1", "" ],
-        [ "5: Actor/Actress that should be in Neill Blomkamp’s Alien?", "", "", "1" ],
+        [ "5: Actor/Actress that should be in Neill Blomkamps Alien?", "", "", "1" ],
         [ "6: Best Time Travel Movie?", "1", "", "" ],
         [ "7: Best movie world to be trapped in for a month?", "1", "", "" ],
         [ "TIE BREAKER: Which sequel do we want to see with its original cast: The Mask 2 or Waynes World 3?", "", "0", "X" ],
@@ -424,10 +424,10 @@
         [ "6: Best movie with the character's name in the title?", "", "1", "" ],
         [ "7: Best movie heroine?", "", "1", "" ],
         [ "SPEED A: Which of these do we watch: X-Men: The Last Stand or Spiderman 3?", "X", "1", "" ],
-        [ "SPEED B: ?", "X", "", "1" ],
-        [ "SPEED C: ?", "X", "", "1" ],
-        [ "SPEED D: ?", "X", "", "1" ],
-        [ "SPEED E: ?", "X", "", "1" ],
+        [ "SPEED B: Best voice performance in a Disney movie?", "X", "", "1" ],
+        [ "SPEED C: Best spoof movie?", "X", "", "1" ],
+        [ "SPEED D: Excluding Die Hard, best Bruce Willis movie?", "X", "", "1" ],
+        [ "SPEED E: Best Hollywood Jason?", "X", "", "1" ],
         [ "FINAL SCORES", "1", "5", "6" ]
       ],
       "title": "Which Kids' Franchise Needs a Gritty Reboot? 1 Mar 15"
@@ -609,10 +609,275 @@
         [ "SPEED D: Best Rocky sequel?", "1", "X", "" ],
         [ "SPEED E: Which do you watch: Max Payne or Major Payne?", "", "X", "1" ],
         [ "SPEED F: Who would win in a fight: Ninja Turtles or the Power Rangers?", "", "X", "1" ],
-        [ "SPEED G: Better love story: Anakin and Padmé or Bella and Edward?", "1", "X", "" ],
+        [ "SPEED G: Better love story: Anakin and Padme or Bella and Edward?", "1", "X", "" ],
         [ "FINAL SCORES", "7", "1", "5" ]
       ],
       "title": "Will Jurassic World Suck? 26 Apr 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Mike Carlson", "Amy Nicholson", "Kristian Harloff" ],
+        [ "Outcome", "Second", "Win", "Third" ]
+      ],
+      "questions": [
+        [ "Questions:", "Mike", "Amy", "Kristian" ],
+        [ "1: Age of Ultron: Does it live up to the hype?", "", "1", "" ],
+        [ "2: Who gave the best performance in Age of Ultron?", "", "", "1" ],
+        [ "3: Best Marvel Cinematic Universe Director so far?", "", "", "1" ],
+        [ "4: Do we like Jared Leto's Joker pic?", "", "1", "" ],
+        [ "5: What franchise deserves its own day like Star Wars?", "1", "", "" ],
+        [ "6: What movie needs an all female spinoff movie?", "1", "", "" ],
+        [ "TIE BREAKER: Best movie directed by M. Night Shymalan?", "0", "0", "" ],
+        [ "SPEED A: Which do you watch: Avatar or Titanic?", "1", "", "X" ],
+        [ "SPEED B: Best Jai Courtney role?", "", "1", "X" ],
+        [ "SPEED C: Which movie do we watch on cable if they're both playing at the same time: The Mighty Ducks or The Sandlot?", "", "1", "X" ],
+        [ "SPEED D: Who wins in a fight out of these three: Christopher Reeve Superman, Brandon Routh Superman, or Henry Cavill Superman?", "1", "", "X" ],
+        [ "SPEED E: Which of these songs from a movie soundtrack should I listen to: Seals Kiss From a Rose or Aerosmiths I Don't Want to Miss a Thing??", "", "1", "X" ],
+        [ "FINAL SCORES", "4", "5", "2" ]
+      ],
+      "title": "Avengers Age of Ultron: Overhyped? 3 May 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Pat Healy", "Chris Stuckmann", "Nick Mundy" ],
+        [ "Outcome", "Third", "Win", "Second" ]
+      ],
+      "questions": [
+        [ "Questions:", "Pat", "Chris", "Nick" ],
+        [ "1: Pitch a Boba Fett Star Wars spinoff movie", "", "1", "" ],
+        [ "2: Which Suicide Squad member looked the best in their pic?", "", "1", "" ],
+        [ "3: Erase a sequel from any franchise", "1", "", "" ],
+        [ "4: Who should direct the new Spider-Man movie?", "", "1", "" ],
+        [ "5: Who should play the Punisher in the MCU?", "", "", "1" ],
+        [ "6: Worst movie mom?", "", "", "1" ],
+        [ "SPEED A: Best Hollywood Ben?", "X", "1", "" ],
+        [ "SPEED B: Better franchise: Rocky or Rambo?", "X", "", "1" ],
+        [ "SPEED C: Which do you watch: Star Trek V: The Final Frontier or Star Wars Episode I?", "X", "", "1" ],
+        [ "SPEED D: Worse movie song to hear on repeat: Princes Bat Dance or Vanilla Ices Turtle Rap?", "X", "1", "" ],
+        [ "SPEED E: Worst movie starring Julia Roberts?", "X", "", "0" ],
+        [ "TIE BREAKER: Which 80s remake would we rather see: Crocodile Dundee or Ferris Bueller?", "X", "1", "" ],
+        [ "FINAL SCORES", "1", "6", "5" ]
+      ],
+      "title": "Who Should Play the Punisher? 10 May 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Jeremy Scott, Chris Atkinson (CS)", "Dan Murrell, Andy Signore (HT)"],
+        [ "Outcome", "Lose", "Win" ]
+      ],
+      "questions": [
+        [ "Questions:", "CS", "HT"],
+        [ "1: Pitch Spider-Man introduction to the MCU", "", "1"],
+        [ "2: Worst cinema sin?", "1", ""],
+        [ "3: Best movie chase scene?", "", "1"],
+        [ "4: Best Pixar movie?", "1", ""],
+        [ "5: Dream versus movie", "", "1"],
+        [ "6: Most sinful movie?", "", "1"],
+        [ "SPEED A: What is the worst Tom Hanks movie: Dragnet or Turner and Hooch?", "", "1"],
+        [ "SPEED B: Who wins in a fight: Chris Evans Captain America or Chris Evans Human Torch?", "1", ""],
+        [ "SPEED C: Which do we watch: Paul Blart or Observe and Report?", "1", ""],
+        [ "SPEED D: Who wins in a fist fight: Ripley or Sarah Connor?", "1", ""],
+        [ "SPEED E:  Jurassic Park III or Lethal Weapon 4?", "", "1"],
+        [ "FINAL SCORES", "5", "6"]
+      ],
+      "title": "Best Pixar Movie (CinemaSins vs. Honest Trailers) 17 May 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Alicia Malone", "Mark Ellis", "Miri Jedeikin" ],
+        [ "Outcome", "Win", "Third", "Second" ]
+      ],
+      "questions": [
+        [ "Questions:", "Alicia", "Mark", "Miri" ],
+        [ "1: Worst post-apocalyptic future to live in?", "", "1", "" ],
+        [ "2: What superhero or villain should Matthew McConaughey play?", "1", "", "" ],
+        [ "3: Best fictional movie band?", "", "", "1" ],
+        [ "4: What director should return to a franchise?", "1", "", "" ],
+        [ "5: What villain should get an origin movie?", "1", "", "" ],
+        [ "6: Best disaster movie?", "1", "", "1" ],
+        [ "SPEED A: Better director: Roland Emmerich or Michael Bay?", "", "X", "" ],
+        [ "SPEED B: Best movie directed by Martin Scorsese?", "", "X", "1" ],
+        [ "SPEED C: Which should we watch: The Lion King or Toy Story?", "", "X", "1" ],
+        [ "SPEED D: Worst movie starring Robert De Niro?", "1", "X", "" ],
+        [ "SPEED E: Who would win in a fight between these two: Legolas or Hawkeye?", "1", "X", "" ],
+        [ "FINAL SCORES", "6", "1", "4" ]
+      ],
+      "title": "McConaughey in the Marvel Universe?! 24 May 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Spencer Gilbert", "Germain Lussier", "Andre Meadows" ],
+        [ "Outcome", "Second", "Win", "Third" ]
+      ],
+      "questions": [
+        [ "Questions:", "Spencer", "Germain", "Andre" ],
+        [ "1: Point Break Trailer: Love or Hate it?", "", "1", "1" ],
+        [ "2: Tomorrowland: See it, Rent it, or Skip it?", "1", "", "" ],
+        [ "3: Which Disney character deserves a spin-off?", "1", "", "" ],
+        [ "4: Which movie flop needs to be remade?", "", "", "1" ],
+        [ "5: Which movie needs a tie-in video game?", "1", "", "" ],
+        [ "6: Best High School Movie?", "", "1", "" ],
+        [ "TIE BREAKER: Hollywood's best Sean/Shawn?", "X", "0", "" ],
+        [ "SPEED A: Best Steven Spielberg movie made after 2000?", "", "1", "X" ],
+        [ "SPEED B: Best DC Superhero movie not starring Batman?", "1", "", "X" ],
+        [ "SPEED C: Best movie with \"American\" in the title?", "1", "", "X" ],
+        [ "SPEED D: Hollywoods best Tom?", "", "1", "X" ],
+        [ "SPEED E: Which do you watch: Grown Ups 2 or Blues Brothers 2000?", "", "1", "X" ],
+        [ "TIE BREAKER: Best Mission Impossible sequel?", "", "1", "X" ],
+        [ "FINAL SCORES", "5", "6", "2" ]
+      ],
+      "title": "Which Disney Character Needs a Spin-Off? 31 May 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Hal Rudnick", "Michael Barryte", "Michael Davis" ],
+        [ "Outcome", "Second", "Third", "Win" ]
+      ],
+      "questions": [
+        [ "Questions:", "Hal", "Michael", "Davis" ],
+        [ "1: Which director should make a superhero movie?", "1", "", "" ],
+        [ "2: What star should reboot an 80s movie?", "1", "", "" ],
+        [ "3: Best spy movie not including James Bond?", "", "", "1" ],
+        [ "4: Best singular film made from a TV Show?", "1", "", "" ],
+        [ "5: Best inspirational speech made from a film?", "", "", "1" ],
+        [ "6: Best first movie from any director?", "", "1", "" ],
+        [ "SPEED A: Who is Hollywood’s best Andy?", "", "X", "1" ],
+        [ "SPEED B: Which one do we watch: Angels in the Outfield or Rookie of the Year?", "", "X", "1" ],
+        [ "SPEED C: Best movie starring Robin Williams?", "", "X", "1" ],
+        [ "SPEED D: Worst movie starring Tom Cruise?", "", "X", "1" ],
+        [ "FINAL SCORES", "3", "1", "6" ]
+      ],
+      "title": "Dream Superhero Movie Director 7 Jun 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Andy Signore", "Mike Carlson", "Dan Murrell" ],
+        [ "Outcome", "Second", "Win", "Third" ]
+      ],
+      "questions": [
+        [ "Questions:", "Andy", "Mike", "Dan" ],
+        [ "1: Jurassic World: Fun or Failure?", "1", "1", "" ],
+        [ "2: Pitch the next Jurassic Park movie", "", "", "1" ],
+        [ "3: Best fourth film in a movie franchise?", "", "", "1" ],
+        [ "4: Who should play Bullseye & Elektra on Daredevil?", "", "1", "" ],
+        [ "5: Best fake movie in a movie?", "1", "", "" ],
+        [ "6: Best movie poster of all time?", "", "1", "" ],
+        ["TIE BREAKER: Best movie with \"Man\" in the title?","0","X",""],
+        [ "SPEED A: Better spoof franschies: Naked Gun or Austin Powers?", "1", "", "X" ],
+        [ "SPEED B: Best Hollywood Daniel?", "1", "", "X" ],
+        [ "SPEED C: Best pre-MCU Marvel movie?", "", "1", "X" ],
+        [ "SPEED D: Best Tom Hanks movie after 2000?", "1", "", "X" ],
+        [ "SPEED E: Worst Colin Farell movie?", "", "1", "X" ],
+        ["TIE BREAKER: Who wins in a fight, Dumbledore or Gandalf?","","1","X"],
+        [ "FINAL SCORES", "5", "6", "3" ]
+      ],
+      "title": "Jurassic World: Fun or Failure 14 Jun 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Nick Mundy", "Jon Schnepp", "John Rocha" ],
+        [ "Outcome", "Win", "Second", "Third" ]
+      ],
+      "questions": [
+        [ "Questions:", "Nick", "Jon", "John" ],
+        [ "1: Which actor should join Star Wars?", "1", "", "" ],
+        [ "2: Most traumatizing kids movie?", "", "1", "" ],
+        [ "3: Which movie character would make the best dad?", "1", "", "" ],
+        [ "4: Most disappointing summer blockbuster?", "", "", "1" ],
+        [ "5: Canceled movie you'd like to see?", "1", "", "" ],
+        [ "6: Best movie death?", "", "", "1" ],
+        [ "SPEED A: Best Hollywood Emma?", "", "", "" ],
+        [ "SPEED B: Best Hollywood Josh?", "1", "X", "" ],
+        [ "SPEED C: Best movie with \"Good\" in the title?", "1", "X", "" ],
+        [ "SPEED D: Worst movie starring Robert Downey Jr?", "", "X", "1" ],
+        [ "SPEED E: Best voice-actor in animated feature after the year 2000?", "", "X", "1" ],
+        [ "SPEED F: Best movie from 2013?", "", "", "" ],
+        [ "SPEED G: Better first franchise film: Alien or Predator?", "1", "X", "" ],
+        [ "FINAL SCORES", "6", "1", "4" ]
+      ],
+      "title": "Most Traumatizing Kid's Movie? 21 Jun 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Dan Murrell", "Amy Nicholson", "Doug Walker" ],
+        [ "Outcome", "Second", "Win", "Third" ]
+      ],
+      "questions": [
+        [ "Questions:", "Dan", "Amy", "Doug" ],
+        [ "1: Which MCU character should be in a Spider Man movie?", "", "1", "" ],
+        [ "2: Who should play Green Lantern?", "", "", "1" ],
+        [ "3: What's the best movie recasting ever?", "1", "", "" ],
+        [ "4: Best James Horner film score?", "1", "", "" ],
+        [ "5: Worst movie of the 1990s?", "", "1", "" ],
+        [ "6: Best R rated comedy of all time?", "", "1", "" ],
+        [ "SPEED A: Best Hollywood Peter?", "1", "", "X" ],
+        [ "SPEED B: Best movie with \"Dead\" in the title?", "", "1", "X" ],
+        [ "SPEED C: Which do you buy from the bargin bin? Inception or The Departed?", "", "1", "X" ],
+        [ "SPEED D: Worst movie starring Christian Bale?", "1", "", "X" ],
+        [ "SPEED E: Disneys best antimated human character?", "", "1", "X" ],
+        [ "FINAL SCORES", "4", "6", "1" ]
+      ],
+      "title": "Who Should Play Green Lantern? 28 Jun 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Kristian Harloff", "Mark Ellis", "Nick Mundy" ],
+        [ "Outcome", "Win", "Second", "Third" ]
+      ],
+      "questions": [
+        [ "Questions:", "Kristian", "Mark", "Nick" ],
+        [ "1: Worst Terminator Sequel?", "1", "", "" ],
+        [ "2: Pitch Arnold's next movie", "1", "", "" ],
+        [ "3: Best movie explosion?", "", "1", "" ],
+        [ "4: Best movie of 2015 so far?", "", "1", "" ],
+        [ "5: What is the best movie sequel title?", "", "", "1" ],
+        [ "6: Best superhero costume/uniform used in a movie?", "1", "", "" ],
+        [ "SPEED A: Best movie \"Captain\"?", "", "1", "X" ],
+        [ "SPEED B: Best movie with \"Night\" in the title?", "", "1", "X" ],
+        [ "SPEED C: Worst movie starring Scarlett Johansson?", "1", "", "X" ],
+        [ "SPEED D: Which do we buy from the bargin bin, American History or American Beauty??", "1", "", "X" ],
+        [ "SPEED E: Best Hollywood \"Gene\"?", "1", "", "X" ],
+        [ "FINAL SCORES", "6", "4", "1" ]
+      ],
+      "title": "Worst Terminator Sequel? 5 Jul 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Mike Carlson", "Mark Ellis", "Spencer Gilbert","Jeremy Jahns","Alicia Malone","Nick Mundy","Dan Murrell","Chris Stuckman" ],
+        [ "Outcome", "Second", "Third", "Win","Fourth", "Fourth", "Fourth","Forth", "Third" ]
+      ],
+      "questions": [
+        [ "Questions:", "Mike", "Mark", "Spencer","Jeremy","Alicia","Nick","Dan","Chris"],
+        [ "1: Best Movie Batman?", "", "W", "","", "", "L","","" ],
+        [ "2: Star Trek or Star Wars?", "W", "", "","L", "", "","","" ],
+        [ "3: What franchise should Michael Bay take over?","", "", "","", "", "","L","W" ],
+        [ "4: Best Chris: Pine, Hemsworth, Evans, or Pratt?", "", "", "W","", "L", "","",""],
+        [ "5: Which X-Man would win The Hunger Games?", "W", "L", "","", "", "","","" ],
+        [ "6: Who would win in a fight: Hulk vs. Darth Vader?", "", "", "W","", "", "","","L" ],
+        [ "7: Who wouldd win: MCU Avengers or DCU Justice League?", "L", "", "W","", "", "","","" ]
+      ],
+      "title": "*Con Panel* Justice League vs. Avengers 12 Jul 15"
+    },
+    {
+      "info": [
+        [ "Fighters", "Jason Inman", "Marc Andreyko", "Mark Reilly" ],
+        [ "Outcome", "Win", "Second", "Third" ]
+      ],
+      "questions": [
+        [ "Questions:", "Jason", "Marc", "Reilly" ],
+        [ "1: Which movie trailer won Comic-Con?", "", "1", "" ],
+        [ "2: Best moment in the Batman v Superman trailer?", "", "", "1" ],
+        [ "3: Best part of the Suicide Squad trailer??", "1", "", "" ],
+        [ "4: Pitch the Ben Affleck solo Batman movie?", "1", "", "" ],
+        [ "5: Batman vs Superman vs Wonder Woman: Who wins?", "", "1", "" ],
+        [ "6: Are we excited for the Deadpool movie?", "1", "1", "" ],
+        [ "SPEED A: Both on cable, which do you watch Godfather or Goodfellas?", "", "1", "X" ],
+        [ "SPEED B: Hollywoods best \"Ben\"?", "1", "", "X" ],
+        [ "SPEED C: All Mission Impossible movies in the bargain bin, which do you buy?", "1", "", "X" ],
+        [ "SPEED D: Best movie with the word \"Rain\"?", "1", "", "X" ],
+        [ "FINAL SCORES", "6", "4", "1" ]
+      ],
+      "title": "Batman v Superman v Wonder Woman: Who Wins? 19 Jul 15"
     }
   ]
 }

@@ -75,7 +75,7 @@
         [ "5: Which Marvel Villains Should Appear in Phase 3? ", "", "1", "" ],
         [ "6: Should Captain America Winter Soldier Be Nominated For Best Picture?", "1", "", "" ],
         [ "7: Who Should Play Joker In A Potential Batman Solo Movie?", ".5", "1", "" ],
-        [ "8: Can Seth Rogen Pull Off A Dramatic Role?", "", "1", "1" ],
+        [ "8: Can Seth Rogen Pull Off A Dramatic Role? (What comedian can?)", "", "1", "1" ],
         [ "TIE BREAKER: Most Overrated Movie Of The Last Decade?", "", "X", "1" ],
         [ "FINAL SCORES", "4", "4", "6" ]
       ],
@@ -84,10 +84,10 @@
     {
       "info": [
         [ "Fighters", "Spencer Gilbert", "Roger Barr", "Nick Mundy" ],
-        [ "Outcome","Win","Tie","Tie"]
+        [ "Outcome", "Win", "Tie", "Tie" ]
       ],
       "questions": [
-        ["Questions:","Spencer","Roger","Nick"],
+        [ "Questions:", "Spencer", "Roger", "Nick" ],
         [ "1: Do We Like The Star Wars Episode 7 Title?", "1", "", "" ],
         [ "2: Does Interstellar Live Up To The Hype?", "1", "1", "" ],
         [ "3: Best Director In The World Today?", "", "1", "" ],
@@ -99,6 +99,82 @@
         [ "FINAL SCORES", "4", "3", "3" ]
       ],
       "title": "Does Interstellar Suck? 9 Nov 14"
-    }
+    },
+    {
+      "info": [
+        [ "Fighters", "Hal Rudnick", "Mike Carlson", "Nick Mundy" ],
+        [ "Outcome", "Third", "Win", "Second" ]
+      ],
+      "questions": [
+        [ "Questions:", "Hal", "Mike", "Nick" ],
+        [ "1: What Do You Think of the Rumored Cast of Suicide Squad?", "", "", "1" ],
+        [ "2: Is There Any Hope for the New Fantastic Four?", "1", "1", "" ],
+        [ "3: What Other Movie Should Live on as a Cable Show?", "1", "", "" ],
+        [ "4: Can M. Night Shyamalan Make a Comeback?", "", "1", "" ],
+        [ "5: Best Chris: Pine, Hemsworth, Evans or Pratt?", "", "", "1" ],
+        [ "6: Best Tarantino Film?", "", "1", "" ],
+        [ "7: Who is the Best Sidekick of all Time?", "", "", "1" ],
+        [ "8: Best Movie Soundtrack?", "", "1", "" ],
+        [ "FINAL SCORES", "2", "4", "3" ]
+      ],
+      "title": "Best Quentin Tarantino Movie? 16 Nov 14"
+    },
+    {
+      "info": [
+        [ "Fighters", "Spencer Gilbert", "Roger Barr", "Mark Ellis" ],
+        [ "Outcome", "Win", "Tie", "Tie" ]
+      ],
+      "questions": [
+        [ "Questions:", "Spencer", "Roger", "Mark" ],
+        [ "1: Do the Hunger Games Movies Suck?", "1", "1", "1" ],
+        [ "2: Which Major Superhero Would Win the Hunger Games?", "1", "1", "" ],
+        [ "3: Best Third Installment of a Franchise?", "1", "", "1" ],
+        [ "4: Do We Need Young Cyclops and Jean Grey in X:Men Apocalypse?", "", "", "1" ],
+        [ "5: Dream Arnold Schwarzenegger Sequel?", "1", "1", "1" ],
+        [ "6: Can the CGI Peanuts Movie be any Good?", "1", "", "" ],
+        [ "7: Which Disney Animated Film Should be Made Into a Live Action Movie?", "", "", "" ],
+        [ "8: Best Ensemble Cast in a Movie?", "", "1", "" ],
+        [ "FINAL SCORES", "5", "4", "4" ]
+      ],
+      "title": "Which Superhero Wins The Hunger Games? 23 Nov 14"
+    },
+    {
+      "info": [
+        [ "Fighters", "Hal Rudnick", "Mike Carlson", "Jason Inman" ],
+        [ "Outcome", "Tie", "Tie", "Win" ]
+      ],
+      "questions": [
+        [ "Questions:", "Hal", "Mike", "Jason" ],
+        [ "1: What Should a Star Wars Spinoff Be Based On?", "1", "", "" ],
+        [ "2: Star Wars or Star Trek?", "", "", "1" ],
+        [ "3: Best Movie to Represent Humanity to Aliens?", "", "1", "" ],
+        [ "4: Which Director Can Make a Good Transformers Film?", "", "", "1" ],
+        [ "5: Best Christmas Movie?", "1", "", "" ],
+        [ "6: Best Movie Trailer of All Time?", "", "", "1" ],
+        [ "7: Which Movie Character Would You Want to Be Best Friends With?", "", "", "1" ],
+        [ "8: Which Movie Would You Reboot?", "", "1", "1" ],
+        [ "FINAL SCORES", "2", "2", "5" ]
+      ],
+      "title": "Star Wars VS Star Trek? 30 Nov 14"
+    },
+    {
+      "info": [
+        [ "Fighters", "Alison Haislip", "Dan Murrell", "Kassem G" ],
+        [ "Outcome", "Third", "Win", "Second" ]
+      ],
+      "questions": [
+        [ "Questions:", "Alison", "Dan", "Kassem" ],
+        [ "1: Best moment of the Star Wars Episode 7 teaser?", "1", "1", "" ],
+        [ "2: New Star Wars lightsaber: like or dislike?", "1", "", "" ],
+        [ "3: Does the Terminator: Genisys trailer excite us?", "", "", "1" ],
+        [ "4: Most unnecessary sequel of all time?", "", "1", "" ],
+        [ "5: Best James Bond?", "", "1", "1" ],
+        [ "6: Greatest movie death scene?", "", "1", "" ],
+        [ "7: Best actor to join a superhero franchise?", "", "", "1" ],
+        [ "8: Which property should Marvel Studios get back?", "", "1", "" ],
+        [ "FINAL SCORES", "2", "5", "3" ]
+      ],
+      "title": "New Star Wars Lightsaber - Awesome or Useless? 7 Dec 14"
+    },
   ]
 }

@@ -5,19 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Screenjunkies Moviefights</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Latest compiled and minified CSS -->
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
     <!-- Optional theme -->
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    
-
-<!-- Latest compiled and minified JavaScript -->
-
+    <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
 <link rel="stylesheet" href="default.css">
@@ -116,101 +109,7 @@
     <div class="row">
         <div id="tableList" class="col-md-10">
         <!-- EPISODE 1 -->
-        <div class="panel panel-default">
-            <div class="panel-heading" id="episode1"><b><a href="https://www.youtube.com/watch?v=ofcGAAf_QDc" target="_blank">Episode 1.</a> Should They Reboot Ghostbusters? (10-12-2014)</b></div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-hover table-condensed">
-                    <tr>
-                        <th>Fighters</th>
-                        <td>Hal Rudnick</td>
-                        <td>Spencer Gilbert</td>
-                        <td>Nick Mundy</td>
-                    </tr>
-                    <tr>
-                        <th>Outcome</th>
-                        <td>Tie (Won tie-breaker rematch episode)</td>
-                        <td>Tie</td>
-                        <td>Tie</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-bordered table-hover table-condensed">
-                    <tr>
-                        <th>Question</th>
-                        <th>Hal</th>
-                        <th>Spencer</th>
-                        <th>Nick</th>
-                    </tr>
-                    <tr>
-                        <td>1: Should They Reboot Ghostbusters?</td>
-                        <td>1</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>2: Should Sony’s Spider-Man Join Marvel’s The Avengers?</td>
-                        <td></td>
-                        <td>1</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>3: Sam Raimi’s Spider-Man vs. Marc Webb’s Spider-Man?</td>
-                        <td>1</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>4: Gone Girl – Great or Overrated?</td>
-                        <td></td>
-                        <td>1</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>5: What’s David Fincher’s Best Film?</td>
-                        <td></td>
-                        <td></td>
-                        <td>1**</td>
-                    </tr>
-                    <tr>
-                        <td>6: Should William Shatner Be in Star Trek 3?</td>
-                        <td></td>
-                        <td></td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>7: Should We Be Excited for Tomorrowland?</td>
-                        <td></td>
-                        <td>1</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>8: Could Rush Hour Be A Decent TV Show?</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>9: Does An Iron Man 4 Need Robert Downey Jr.?</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>10: Whats The Best Comic Book TV Show?</td>
-                        <td></td>
-                        <td></td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td><b>FINAL SCORES</b></td>
-                        <td><b>4*</b></td>
-                        <td><b>5</b></td>
-                        <td><b>5</b></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
+        
 
         <!-- Back-to-top link -->
         <p><a href="#" class="simple-back-to-top">Back to the top</a></p>
@@ -264,11 +163,11 @@
                 for (columns = 1; columns < info[rows].length; columns++){
                     var infoCol = document.createElement('td');
                     infoCol.textContent = info[rows][columns];
-                    infoRow.appendChild(infoCol);
+                    infoRow.append(infoCol);
                 }
-                InfoTable.AppendChild(infoRow);
+                InfoTable.Append(infoRow);
             }
-            InfoDiv.appendChild(InfoTable);
+            InfoDiv.append(InfoTable);
 
             var questions = episodes[i].questions;
             for (rows = 0; rows < info.length; j++) {
@@ -277,18 +176,18 @@
                 for (columns = 0; columns < info[rows].length; columns++) {
                     var questionCol = document.createElement('td');
                     questionCol.textContent = info[rows][columns];
-                    questionRow.appendChild(questionCol);
+                    questionRow.append(questionCol);
                 }
-                QuestionTable.AppendChild(questionRow);
+                QuestionTable.Append(questionRow);
             }
-            QuestionDiv.appendChild(QuestionTable);
+            QuestionDiv.append(QuestionTable);
 
             episodePanel.append(panelHeading); 
-            episodePanel.appendChild(InfoDiv);
-            episodePanel.appendChild(QuestionDiv);
+            episodePanel.append(InfoDiv);
+            episodePanel.append(QuestionDiv);
 
             var myNode = document.getElementById("tableList")
-            myNode.appendChild(episodePanel);
+            myNode.append(episodePanel);
         }
     }
 

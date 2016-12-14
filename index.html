@@ -153,7 +153,7 @@
             var QuestionTable = document.createElement('table');
                 QuestionTable.className = "table table-bordered table-hover table-condensed";
 
-
+                panelHeading.textContent = episodes[i].title;
             var info = episodes[i].info;
             for (rows = 0; rows < info.length; rows++) {
                 var infoRow = document.createElement('tr');
@@ -170,12 +170,12 @@
             InfoDiv.appendChild(InfoTable);
 
             var questions = episodes[i].questions;
-            for (rows = 0; rows < info.length; rows++) {
+            for (rows = 0; rows < questions.length; rows++) {
                 var questionRow = document.createElement('tr');
 
-                for (columns = 0; columns < info[rows].length; columns++) {
+                for (columns = 0; columns < questions[rows].length; columns++) {
                     var questionCol = document.createElement('td');
-                    questionCol.textContent = info[rows][columns];
+                    questionCol.textContent = questions[rows][columns];
                     questionRow.appendChild(questionCol);
                 }
                 QuestionTable.appendChild(questionRow);

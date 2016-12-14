@@ -9,7 +9,7 @@
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
     <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
@@ -154,7 +154,8 @@
                 QuestionTable.className = "table table-bordered table-hover table-condensed";
 
                 panelHeading.textContent = episodes[i].title;
-            var info = episodes[i].info;
+                var info = episodes[i].info;
+                var infoTableBody = document.createElement('tbody');
             for (rows = 0; rows < info.length; rows++) {
                 var infoRow = document.createElement('tr');
                 var infoCol = document.createElement('th');
@@ -165,11 +166,13 @@
                     infoCol.textContent = info[rows][columns];
                     infoRow.appendChild(infoCol);
                 }
-                InfoTable.appendChild(infoRow);
+                infoTableBody.appendChild(infoRow);
             }
+            InfoTable.appendChild(infoTableBody);
             InfoDiv.appendChild(InfoTable);
 
             var questions = episodes[i].questions;
+            var questionTableBody = document.createElement('tbody');
             for (rows = 0; rows < questions.length; rows++) {
                 var questionRow = document.createElement('tr');
 
@@ -178,8 +181,9 @@
                     questionCol.textContent = questions[rows][columns];
                     questionRow.appendChild(questionCol);
                 }
-                QuestionTable.appendChild(questionRow);
+                questionTableBody.appendChild(questionRow);
             }
+            QuestionTable.appendChild(questionTableBody);
             QuestionDiv.appendChild(QuestionTable);
 
             episodePanel.appendChild(panelHeading); 

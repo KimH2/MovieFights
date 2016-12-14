@@ -35,68 +35,9 @@
     <div class="row">
         <div class="col-md-10">
             <nav>
-                <ul class="pagination pagination-sm">
+                <ul id="nav" class="pagination pagination-sm">
                     <li><a>Jump to specific episode on this page:</a></li>
-                    <li><a href="#episode1">1</a></li>
-                    <li><a href="#episode2">2</a></li>
-                    <li><a href="#episode3">3</a></li>
-                    <li><a href="#episode4">4</a></li>
-                    <li><a href="#episode5">5</a></li>
-                    <li><a href="#episode6">6</a></li>
-                    <li><a href="#episode7">7</a></li>
-                    <li><a href="#episode8">8</a></li>
-                    <li><a href="#episode9">9</a></li>
-                    <li><a href="#episode10">10</a></li>
-                    <li><a href="#episode11">11</a></li>
-                    <li><a href="#episode12">12</a></li>
-                    <li><a href="#episode13">13</a></li>
-                    <li><a href="#episode14">14</a></li>
-                    <li><a href="#episode15">15</a></li>
-                    <li><a href="#episode16">16</a></li>
-                    <li><a href="#episode17">17</a></li>
-                    <li><a href="#episode18">18</a></li>
-                    <li><a href="#episode19">19</a></li>
-                    <li><a href="#episode20">20</a></li>
-                    <li><a href="#episode21">21</a></li>
-                    <li><a href="#episode22">22</a></li>
-                    <li><a href="#episode23">23</a></li>
-                    <li><a href="#episode24">24</a></li>
-                    <li><a href="#episode25">25</a></li>
-                    <li><a href="#episode26">26</a></li>
-                    <li><a href="#episode27">27</a></li>
-                    <li><a href="#episode28">28</a></li>
-                    <li><a href="#episode29">29</a></li>
-                    <li><a href="#episode30">30</a></li>
-                    <li><a href="#episode31">31</a></li>
-                    <li><a href="#episode32">32</a></li>
-                    <li><a href="#episode33">33</a></li>
-                    <li><a href="#episode34">34</a></li>
-                    <li><a href="#episode35">35</a></li>
-                    <li><a href="#episode36">36</a></li>
-                    <li><a href="#episode37">37</a></li>
-                    <li><a href="#episode38">38</a></li>
-                    <li><a href="#episode39">39</a></li>
-                    <li><a href="#episode40">40</a></li>
-                    <li><a href="#episode41">41</a></li>
-                    <li><a href="#episode42">42</a></li>
-		            <li><a href="#episode43">43</a></li>
-                    <li><a href="#episode44">44</a></li>
-                    <li><a href="#episode45">45</a></li>
-		            <li><a href="#episode46">46</a></li>
-                    <li><a href="#episode47">47</a></li>
-                    <li><a href="#episode48">48</a></li>
-                    <li><a href="#episode49">49</a></li>
-                    <li><a href="#episode50">50</a></li>
-                    <li><a href="#episode51">51</a></li>
-                    <li><a href="#episode52">52</a></li>
-		            <li><a href="#episode53">53</a></li>
-                    <li><a href="#episode54">54</a></li>
-                    <li><a href="#episode55">55</a></li>
-		            <li><a href="#episode56">56</a></li>
-                    <li><a href="#episode57">57</a></li>
-                    <li><a href="#episode58">58</a></li>
-                    <li><a href="#episode59">59</a></li>
-                    <li><a href="#episode60">60</a></li>
+                   
                 </ul>
             </nav>
 
@@ -139,6 +80,15 @@
         var episodes = jsonObj['episodes'];
 
         for (i = 0; i < episodes.length; i++) {
+            var listItem = document.createElement('li');
+            var anchor = document.createElement('a');
+            anchor.href = "#episode" + (i + 1);
+            anchor.textContent = (i + 1);
+            listItem.appendChild(anchor);
+
+            var myNav = document.getElementById("nav");
+            myNav.appendChild(listItem);
+
             var episodePanel = document.createElement('div');
                 episodePanel.className = "panel panel-default";
             var panelHeading = document.createElement('div');

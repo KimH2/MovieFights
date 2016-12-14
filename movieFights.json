@@ -19,28 +19,86 @@
         [ "10: What\u0027s The Best Comic Book TV Show?", "", "", "1" ],
         [ "FINAL SCORES", "4", "5", "5" ]
       ],
-      "title": "MOVIE FIGHTS TEST"
+      "title": "Should They Reboot Ghostbusters? 12 Oct 14"
     },
     {
       "info": [
-        [ "Fighters", "Hal Rudnick", "Spencer Gilbert", "Nick Mundy" ],
-        [ "Outcome","Tie(Won tie-breaker rematch episode)","Tie","Tie"]
+        [ "Fighters", "Erin Robinson", "Dan Murrell", "Nick Mundy" ],
+        [ "Outcome", "Second", "Win", "Third" ]
       ],
       "questions": [
-        ["Questions:","Hal","Spencer","Nick"],
-        [ "1: Should They Reboot Ghostbusters?", "1", "", "" ],
-        [ "2: Should Sony\u0027s Spider-Man Join Marvel\u0027s The Avengers?", "", "1", "" ],
-        [ "3: Sam Raimi\u0027s Spider-Man vs. Marc Webb\u0027s Spider-Man?", "1", "", "" ],
-        [ "4: Gone Girl: Great or Overrated?", "", "1", "" ],
-        [ "5: What\u0027s David Fincher\u0027s Best Film?", "", "", "1" ],
-        [ "6: Should William Shatner Be in Star Trek 3?", "", "", "1" ],
-        [ "7: Should We Be Excited for Tomorrowland?", "", "1", "" ],
-        [ "8: Could Rush Hour Be A Decent TV Show?", "1", "1", "1" ],
-        [ "9: Does An Iron Man 4 Need Robert Downey Jr.?", "1", "1", "1" ],
-        [ "10: What\u0027s The Best Comic Book TV Show?", "", "", "1" ],
-        [ "FINAL SCORES", "4", "5", "5" ]
+        [ "Questions:", "Erin", "Dan", "Nick" ],
+        [ "1: Can DC Be as Popular as Marvel?", "", "1", "" ],
+        [ "2: When Will Marvel Fail?", "", "", "1" ],
+        [ "3: Which DC Movie is Most Exciting?", "1", "", "" ],
+        [ "4: Which DC Character Needs a Movie?", "", "1", "" ],
+        [ "5: Which Marvel Character Needs a Movie?", "1", "", "1" ],
+        [ "6: Who Should be Dr. Strange?", "1", "", "" ],
+        [ "7: Captain America vs. Iron Man", "1", "1", "" ],
+        [ "8: Justice League Dream Director", "", "", "1" ],
+        [ "9: Best Batman", "", "1", "" ],
+        [ "10: Old X-Men vs. New X-Men", "", "1", "" ],
+        [ "FINAL SCORES", "4", "5", "3" ]
       ],
-      "title": "Episode 1"
+      "title": "Captain America vs. Iron Man 19 Oct 14"
+    },
+    {
+      "info": [
+        [ "Fighters", "Hal Rudnick", "Dan Murrell", "Spencer Gilbert" ],
+        [ "Outcome", "Tie", "Win", "Tie" ]
+      ],
+      "questions": [
+        [ "Questions:", "Hal", "Dan", "Spencer" ],
+        [ "1: 2015 box office winner? Star Wars or Age of Ultron", "", "1", "1" ],
+        [ "2: Best Keanu Reeves Movie?", "1", "", "2" ],
+        [ "3: Can We Take Johnny Depp Seriously Anymore?", "2", "", "" ],
+        [ "4: Terminator Genisys: Should Arnold Be In It?", "", "1", "" ],
+        [ "5: Do We Want a New Pee-Wee Movie?", "", "1", "" ],
+        [ "6: Nightmare Before Christmas: Christmas or Halloween movie?", "", "", "1" ],
+        [ "7: Can A Movie Based On A Board Game Be Any Good?", "", "1", "" ],
+        [ "8: Best Slasher Film", "1", "", "1" ],
+        [ "FINAL SCORES", "4", "5", "4" ]
+      ],
+      "title": "Age of Ultron Trailer Debate 26 Oct 14"
+    },
+    {
+      "info": [
+        [ "Fighters", "Hal Rudnick", "Michael Barryte", "Mike Carlson" ],
+        [ "Outcome", "Tie", "Win", "Tie" ]
+      ],
+      "questions": [
+        [ "Questions:", "Hal", "Michael", "Mike" ],
+        [ "1: What Phase 3 Marvel Movie Are You Most Excited For?", "1", "", "1" ],
+        [ "2: Avengers Infinity War Split Into 2 Parts? Good Idea or Bad Idea? ", "", "", "1" ],
+        [ "3: Who Should Play Captain Marvel?", ".5", "", "1" ],
+        [ "4: Which Avenger Should Retire First? ", "1", "1", "1" ],
+        [ "5: Which Marvel Villains Should Appear in Phase 3? ", "", "1", "" ],
+        [ "6: Should Captain America Winter Soldier Be Nominated For Best Picture?", "1", "", "" ],
+        [ "7: Who Should Play Joker In A Potential Batman Solo Movie?", ".5", "1", "" ],
+        [ "8: Can Seth Rogen Pull Off A Dramatic Role?", "", "1", "1" ],
+        [ "TIE BREAKER: Most Overrated Movie Of The Last Decade?", "", "X", "1" ],
+        [ "FINAL SCORES", "4", "4", "6" ]
+      ],
+      "title": "Best Marvel Phase 3 Movie? 2 Nov 14"
+    },
+    {
+      "info": [
+        [ "Fighters", "Spencer Gilbert", "Roger Barr", "Nick Mundy" ],
+        [ "Outcome","Win","Tie","Tie"]
+      ],
+      "questions": [
+        ["Questions:","Spencer","Roger","Nick"],
+        [ "1: Do We Like The Star Wars Episode 7 Title?", "1", "", "" ],
+        [ "2: Does Interstellar Live Up To The Hype?", "1", "1", "" ],
+        [ "3: Best Director In The World Today?", "", "1", "" ],
+        [ "4: Best Movie Trilogy of All Time?", "", "", "1" ],
+        [ "5: Should Fast &amp; The Furious End With Furious 7?", "", "", "1" ],
+        [ "6: Should Andy Serkis be Nominated For An Oscar?", "1", "1", "" ],
+        [ "7: Do We Actually Need Toy Story 4?", "1", "", "" ],
+        [ "8: Best Disney Animated Movie?", "", "", "1" ],
+        [ "FINAL SCORES", "4", "3", "3" ]
+      ],
+      "title": "Does Interstellar Suck? 9 Nov 14"
     }
   ]
 }

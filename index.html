@@ -159,15 +159,15 @@
                 var infoRow = document.createElement('tr');
                 var infoCol = document.createElement('th');
                 infoCol.textContent = info[rows][0];
-                infoRow.append(infoCol)
+                infoRow.appendChild(infoCol)
                 for (columns = 1; columns < info[rows].length; columns++){
                     var infoCol = document.createElement('td');
                     infoCol.textContent = info[rows][columns];
-                    infoRow.append(infoCol);
+                    infoRow.appendChild(infoCol);
                 }
-                InfoTable.Append(infoRow);
+                InfoTable.appendChild(infoRow);
             }
-            InfoDiv.append(InfoTable);
+            InfoDiv.appendChild(InfoTable);
 
             var questions = episodes[i].questions;
             for (rows = 0; rows < info.length; j++) {
@@ -176,18 +176,18 @@
                 for (columns = 0; columns < info[rows].length; columns++) {
                     var questionCol = document.createElement('td');
                     questionCol.textContent = info[rows][columns];
-                    questionRow.append(questionCol);
+                    questionRow.appendChild(questionCol);
                 }
-                QuestionTable.Append(questionRow);
+                QuestionTable.appendChild(questionRow);
             }
-            QuestionDiv.append(QuestionTable);
+            QuestionDiv.appendChild(QuestionTable);
 
-            episodePanel.append(panelHeading); 
-            episodePanel.append(InfoDiv);
-            episodePanel.append(QuestionDiv);
+            episodePanel.appendChild(panelHeading); 
+            episodePanel.appendChild(InfoDiv);
+            episodePanel.appendChild(QuestionDiv);
 
             var myNode = document.getElementById("tableList")
-            myNode.append(episodePanel);
+            myNode.appendChild(episodePanel);
         }
     }
 

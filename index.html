@@ -155,7 +155,7 @@
 
 
             var info = episodes[i].info;
-            for (rows = 0; rows < info.length; j++) {
+            for (rows = 0; rows < info.length; rows++) {
                 var infoRow = document.createElement('tr');
                 var infoCol = document.createElement('th');
                 infoCol.textContent = info[rows][0];
@@ -170,7 +170,7 @@
             InfoDiv.appendChild(InfoTable);
 
             var questions = episodes[i].questions;
-            for (rows = 0; rows < info.length; j++) {
+            for (rows = 0; rows < info.length; rows++) {
                 var questionRow = document.createElement('tr');
 
                 for (columns = 0; columns < info[rows].length; columns++) {

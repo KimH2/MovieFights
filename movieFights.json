@@ -1,0 +1,44 @@
+{
+  "episodes": [
+    {
+      "info": [
+        [ "Fighters", "Hal Rudnick", "Spencer Gilbert", "Nick Mundy" ],
+        [ "Outcome", "Tie(Won tie-breaker rematch episode)", "Tie", "Tie" ]
+      ],
+      "questions": [
+        [ "1: Should They Reboot Ghostbusters?", "1", "", "" ],
+        [ "2: Should Sony’s Spider-Man Join Marvel’s The Avengers?", "", "1", "" ],
+        [ "3: Sam Raimi’s Spider-Man vs. Marc Webb’s Spider-Man?", "1", "", "" ],
+        [ "4: Gone Girl – Great or Overrated?", "", "1", "" ],
+        [ "5: What’s David Fincher’s Best Film?", "", "", "1" ],
+        [ "6: Should William Shatner Be in Star Trek 3?", "", "", "1" ],
+        [ "7: Should We Be Excited for Tomorrowland?", "", "1", "" ],
+        [ "8: Could Rush Hour Be A Decent TV Show?", "1", "1", "1" ],
+        [ "9: Does An Iron Man 4 Need Robert Downey Jr.?", "1", "1", "1" ],
+        [ "10: Whats The Best Comic Book TV Show?", "", "", "1" ],
+        [ "FINAL SCORES", "4", "5", "5" ]
+      ],
+      "title": "Episode 1"
+    },
+    {
+      "info": [
+        [ "Fighters", "Hal Rudnick", "Spencer Gilbert", "Nick Mundy" ],
+        [ "Outcome","Tie(Won tie-breaker rematch episode)","Tie","Tie"]
+      ],
+      "questions": [
+        ["1: Should They Reboot Ghostbusters?","1","","" ],
+        ["2: Should Sony’s Spider-Man Join Marvel’s The Avengers?","","1","" ],
+        ["3: Sam Raimi’s Spider-Man vs. Marc Webb’s Spider-Man?","1","","" ],
+        ["4: Gone Girl – Great or Overrated?","","1","" ],
+        ["5: What’s David Fincher’s Best Film?","","","1" ],
+        ["6: Should William Shatner Be in Star Trek 3?","","","1" ],
+        ["7: Should We Be Excited for Tomorrowland?","","1","" ],
+        ["8: Could Rush Hour Be A Decent TV Show?","1","1","1" ],
+        [ "9: Does An Iron Man 4 Need Robert Downey Jr.?", "1", "1", "1" ],
+        [ "10: Whats The Best Comic Book TV Show?", "", "", "1" ],
+        [ "FINAL SCORES", "4", "5", "5" ]
+      ],
+      "title": "Episode 1"
+    }
+  ]
+}

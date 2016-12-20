@@ -16,135 +16,71 @@
 <link rel="stylesheet" href="default.css">
 </head>
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Movie Fights <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="MovieFights.html">Episodes</a></li>
+                            <li><a href="#">Fighters</a></li>
+                            <li><a href="#">Trivia</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TV Fights <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="TVFights.html">Episodes</a></li>
+                            <li><a href="#">Fighters</a></li>
+                            <li><a href="#">Trivia</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 <div class="container">
     <!-- Description -->
     <div class="row">
-        <div class="col-xs-7">
-            <h2>Movie Fights Questions, Answers and more</h2>
-            <p id="description">"Movie Fights", typically hosted by Andy Signore, typically features debates between three other people
-            outside of Screen Junkies, such as other YouTube reviewers, on various movie-related questions.</p>
-            <p><b>Disclaimer:</b> This site is an unofficial fan effort, and a continuation of work done by others though all data has been reverified to ensure accuracy.
-            </p>
+        <div class="col-lg-4">
+        <img id="descPic" style="width: 100%; height: auto;" src="MovFight.png">
+        <ul>
+            <li><a>Overview</a></li>
+            <li><a href="MovieFights.html">Episodes</a></li>
+            <li><a>Standings</a></li>
+            <li><a>Trivia</a></li>
+        </ul>
         </div>
-        <div class="col-xs-5">
-            <br />
-            <img id="descPic" src="screenjunkies.jpg">
-        </div>
-    </div>
-    <!-- Pagination -->
-    <div class="row">
-        <div class="col-md-10">
-            <nav>
-                <ul id="nav" class="pagination pagination-sm">
-                    <li><a>Jump to specific episode on this page:</a></li>
-                   
-                </ul>
-            </nav>
-
-            <p style="font-size: x-small">Note 1: x during a Tie Breaker or Speed Round question denotes the fighter
-                was not competing in that portion, whereas 0 denotes the fighter won the tie breaker but did not receive a point for it (in the case of the point being pushed on to the Speed Round))</p>
+        <div class="col-lg-1"><span style="font-size:3em;" class="glyphicon glyphicon-chevron-left"></span> </div>
+        <div class="col-lg-2" style="font-size:1.5em; text-align: center;">  Choose Your Fight </div>
+        <div class="col-lg-1"><span style="font-size:3em;" class="glyphicon glyphicon-chevron-right"></span></div>
+        <div class="col-lg-4">
+            <img id="descPic" style="width: 100%; height: auto;" src="TVfight.png">
+            <ul>
+                <li><a>Overview</a></li>
+                <li><a href="MovieFights.html">Episodes</a></li>
+                <li><a>Standings</a></li>
+                <li><a>Trivia</a></li>
+            </ul>
         </div>
     </div>
-    <!-- Episode list -->
-
-    <div class="row">
-        <div id="tableList" class="col-md-10">
-        <!-- EPISODE 1 -->
-        
-
-        <!-- Back-to-top link -->
-        <p><a href="#" class="simple-back-to-top">Back to the top</a></p>
-        </div>
-    </div>
+    
 </div>
 
-<script type="text/javascript">
-
-    $('a.back-to-top, a.simple-back-to-top').click(function() {
-        $('html,body').animate({ scrollTop: 0 }, 'slow');
-        return false;
-    });
-</script>
-<script>
-    var requestURL = ' https://kimh2.github.io/MovieFights/movieFights.json';
-    var request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
-
-    request.onload = function () {
-        var Episoderesponse = request.response;
-        showEpisode(Episoderesponse);
-    }
-    function showEpisode(jsonObj) {
-        var episodes = jsonObj['episodes'];
-
-        for (i = 0; i < episodes.length; i++) {
-            var listItem = document.createElement('li');
-            var anchor = document.createElement('a');
-            anchor.href = "#episode" + (i + 1);
-            anchor.textContent = (i + 1);
-            listItem.appendChild(anchor);
-
-            var myNav = document.getElementById("nav");
-            myNav.appendChild(listItem);
-
-            var episodePanel = document.createElement('div');
-                episodePanel.className = "panel panel-default";
-            var panelHeading = document.createElement('div');
-                panelHeading.className = "panel-heading";
-                panelHeading.id = "episode"+(i+1);
-            var InfoDiv = document.createElement('div'); 
-                InfoDiv.className= "table-responsive";
-            var QuestionDiv = document.createElement('div');
-                QuestionDiv.className= "table-responsive";
-            var InfoTable = document.createElement('table'); 
-                InfoTable.className = "table table-bordered table-hover table-condensed";
-            var QuestionTable = document.createElement('table');
-                QuestionTable.className = "table table-bordered table-hover table-condensed";
-
-                panelHeading.textContent = episodes[i].title;
-                var info = episodes[i].info;
-                var infoTableBody = document.createElement('tbody');
-            for (rows = 0; rows < info.length; rows++) {
-                var infoRow = document.createElement('tr');
-                var infoCol = document.createElement('th');
-                infoCol.textContent = info[rows][0];
-                infoRow.appendChild(infoCol)
-                for (columns = 1; columns < info[rows].length; columns++){
-                    var infoCol = document.createElement('td');
-                    infoCol.textContent = info[rows][columns];
-                    infoRow.appendChild(infoCol);
-                }
-                infoTableBody.appendChild(infoRow);
-            }
-            InfoTable.appendChild(infoTableBody);
-            InfoDiv.appendChild(InfoTable);
-
-            var questions = episodes[i].questions;
-            var questionTableBody = document.createElement('tbody');
-            for (rows = 0; rows < questions.length; rows++) {
-                var questionRow = document.createElement('tr');
-
-                for (columns = 0; columns < questions[rows].length; columns++) {
-                    var questionCol = document.createElement('td');
-                    questionCol.textContent = questions[rows][columns];
-                    questionRow.appendChild(questionCol);
-                }
-                questionTableBody.appendChild(questionRow);
-            }
-            QuestionTable.appendChild(questionTableBody);
-            QuestionDiv.appendChild(QuestionTable);
-
-            episodePanel.appendChild(panelHeading); 
-            episodePanel.appendChild(InfoDiv);
-            episodePanel.appendChild(QuestionDiv);
-
-            var myNode = document.getElementById("tableList")
-            myNode.appendChild(episodePanel);
-        }
-    }
-
-</script>
 </body>
 </html>

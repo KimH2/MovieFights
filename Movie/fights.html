@@ -22,34 +22,39 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+                <img id="logoPic" style="width: auto; height: 50px;" src="sjMinus-logo.svg">
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Movie Fights <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Overview</a></li>
-                            <li><a href="#">Episodes</a></li>
-                            <li><a href="#">Fighters</a></li>
-                            <li><a href="#">Trivia</a></li>
+                            <li><a href="../Movie/overview.html">Overview</a></li>
+                            <li><a href="../Movie/fights.html">Episodes</a></li>
+                            <li><a href="../Movie/fighters.html">Fighters</a></li>
+                            <li><a href="../Movie/trivia.html">Trivia</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TV Fights <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Overview</a></li>
-                            <li><a href="#">Episodes</a></li>
-                            <li><a href="#">Fighters</a></li>
-                            <li><a href="#">Trivia</a></li>
+                            <li><a href="../TV/overview.html">Overview</a></li>
+                            <li><a href="../TV/fights.html">Episodes</a></li>
+                            <li><a href="../TV/fighters.html">Fighters</a></li>
+                            <li><a href="../TV/trivia.html">Trivia</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gamer Fights <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../Game/overview.html">Overview</a></li>
+                            <li><a href="../Game/fights.html">Episodes</a></li>
+                            <li><a href="../Game/fighters.html">Fighters</a></li>
+                            <li><a href="../Game/trivia.html">Trivia</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -106,7 +111,7 @@
     });
 </script>
 <script>
-    var requestURL = ' https://kimh2.github.io/MovieFights/movieFights.json';
+    var requestURL = ' https://kimh2.github.io/MovieFights/Movie/Fights.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';

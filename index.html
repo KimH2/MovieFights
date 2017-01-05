@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Screenjunkies Moviefights</title>
+    <title>Screenjunkies Minus</title>
+    <link rel="shortcut icon" href="favicon.ico" type=”image/icon”/>
+    <link rel="icon" href="favicon.ico" type=”image/icon”/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -24,30 +26,37 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+                <img id="logoPic" style="width: auto; height: 50px;" src="sjMinus-logo.svg">
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Movie Fights <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Overview</a></li>
-                            <li><a href="MovieFights.html">Episodes</a></li>
-                            <li><a href="#">Fighters</a></li>
-                            <li><a href="#">Trivia</a></li>
+                            <li><a href="Movie/overview.html">Overview</a></li>
+                            <li><a href="Movie/fights.html">Episodes</a></li>
+                            <li><a href="Movie/fighters.html">Fighters</a></li>
+                            <li><a href="Movie/trivia.html">Trivia</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TV Fights <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Overview</a></li>
-                            <li><a href="TVFights.html">Episodes</a></li>
-                            <li><a href="#">Fighters</a></li>
-                            <li><a href="#">Trivia</a></li>
+                            <li><a href="TV/overview.html">Overview</a></li>
+                            <li><a href="TV/fights.html">Episodes</a></li>
+                            <li><a href="TV/fighters.html">Fighters</a></li>
+                            <li><a href="TV/trivia.html">Trivia</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gamer Fights <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Game/overview.html">Overview</a></li>
+                            <li><a href="Game/fights.html">Episodes</a></li>
+                            <li><a href="Game/fighters.html">Fighters</a></li>
+                            <li><a href="Game/trivia.html">Trivia</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -56,30 +65,41 @@
     </nav>
 <div class="container">
     <!-- Description -->
+    <div class="row" style="font-size:large;">
+        Welcome to <img id="logoPic" style="width: 50%; height: auto;" src="sjMinus-logo.svg"> a 100% <b>*UNOFFICIAL*</b> Fan Page
+    </div>
     <div class="row">
         <div class="col-lg-4">
         <img id="descPic" style="width: 100%; height: auto;" src="MovFight.PNG">
         <ul>
-            <li><a>Overview</a></li>
-            <li><a href="MovieFights.html">Episodes</a></li>
-            <li><a>Standings</a></li>
-            <li><a>Trivia</a></li>
+            <li><a href="Movie/overview.html">Overview</a></li>
+            <li><a href="Movie/fights.html">Episodes</a></li>
+            <li><a href="Movie/fighters.html">Fighters</a></li>
+            <li><a href="Movie/trivia.html">Trivia</a></li>
         </ul>
         </div>
-        <div class="col-lg-1"><span style="font-size:3em;" class="glyphicon glyphicon-chevron-left"></span> </div>
-        <div class="col-lg-2" style="font-size:1.5em; text-align: center;">  Choose Your Fight </div>
-        <div class="col-lg-1"><span style="font-size:3em;" class="glyphicon glyphicon-chevron-right"></span></div>
         <div class="col-lg-4">
             <img id="descPic" style="width: 100%; height: auto;" src="TVfight.PNG">
             <ul>
-                <li><a>Overview</a></li>
-                <li><a href="MovieFights.html">Episodes</a></li>
-                <li><a>Standings</a></li>
-                <li><a>Trivia</a></li>
+                <li><a href="TV/overview.html">Overview</a></li>
+                <li><a href="TV/fights.html">Episodes</a></li>
+                <li><a href="TV/fighters.html">Fighters</a></li>
+                <li><a href="TV/trivia.html">Trivia</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-4">
+            <img id="descPic" style="width: 100%; height: auto;" src="Gamefight.PNG">
+            <ul>
+                <li><a href="Game/overview.html">Overview</a></li>
+                <li><a href="Game/fights.html">Episodes</a></li>
+                <li><a href="Game/fighters.html">Fighters</a></li>
+                <li><a href="Game/trivia.html">Trivia</a></li>
             </ul>
         </div>
     </div>
-    
+    <div class="row">
+        This page is not created, hosted, maintained, endorsed, or otherwise affiliated with Screen Junkies in any official capacity. This is a fan site created for informational purposes only. All images, logos, trademarks, and copyrights are the property of their respective owners/creators.
+    </div>
 </div>
 
 </body>

@@ -1,0 +1,8 @@
+{
+  "Fighters": [
+    [ "Name", "Current Champ (D for drunk, M for main)", "Wins", "Loses","Ties","Championship Reigns" ],
+    [ "DanMurrell", "Dan Murrell", "M", "10", "0", "0", "10-2-14 to present" ],
+    [ "KenNapsok", "Ken Napsok", "D", "2", "5", "3", "12-20-16 to present" ],
+    [ "SpencerGilbert", "Spencer Gilbert", "", "1", "8","2","" ]
+  ]
+}

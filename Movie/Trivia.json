@@ -1,0 +1,19 @@
+{
+  "episodes": [
+    {
+        "number": "General",
+        "title": "General Show Trivia:",
+        "trivia": ["test", "test", "test" ]
+    },
+    {
+      "number": "1",
+      "title": "cast ghostbusters:",
+      "trivia": [ "test", "test", "test" ]
+    },
+    {
+      "number": "2",
+      "title": "ironman vs cap",
+      "trivia": [ ]
+    }
+  ]
+}

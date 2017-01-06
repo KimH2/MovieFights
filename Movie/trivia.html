@@ -65,8 +65,8 @@
     <!-- Description -->
     <div class="row">
         <div class="col-xs-7">
-            <h2>Movie Fights full episode list</h2>
-            <p id="description"><b>Disclaimer:</b> This site is an unofficial fan effort, and a continuation of work done by others though all data has been reverified to ensure accuracy.</p>
+            <h2>Movie Fights Trivia (sorted by episode)</h2>
+            <p id="description"><b>Disclaimer:</b> This site is an unofficial fan effort, every effort has been made to ensure accuracy.</p>
         </div>
         <div class="col-xs-5">
             <br />
@@ -82,19 +82,16 @@
                    
                 </ul>
             </nav>
-
-            <p style="font-size: x-small">Note 1: x during a Tie Breaker or Speed Round question denotes the fighter
-                was not competing in that portion, whereas 0 denotes the fighter won the tie breaker but did not receive a point for it (in the case of the point being pushed on to the Speed Round))</p>
         </div>
     </div>
-    <!-- Episode list -->
 
     <div class="row">
         <div id="tableList" class="col-md-10">
-        <!-- EPISODEs fill in here -->        
+        <!-- EPISODE trivia fill in here -->        
         </div>
         
     </div>
+
     <!-- Back-to-top link -->
     <p><a href="#" class="simple-back-to-top">Back to the top</a></p>
 </div>
@@ -107,7 +104,7 @@
     });
 </script>
 <script>
-    var requestURL = ' https://kimh2.github.io/SJMinus/Movie/Fights.json';
+    var requestURL = ' https://kimh2.github.io/SJMinus/Movie/Trivia.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
@@ -120,66 +117,44 @@
     function showEpisode(jsonObj) {
         var episodes = jsonObj['episodes'];
 
+        var episodePanel = document.createElement('div');
+
         for (i = 0; i < episodes.length; i++) {
             var listItem = document.createElement('li');
             var anchor = document.createElement('a');
-            anchor.href = "#episode" + (i + 1);
-            anchor.textContent = (i + 1);
+            anchor.href = "#episode" + episodes[i].number;
+            anchor.textContent = episodes[i].number;
             listItem.appendChild(anchor);
 
             var myNav = document.getElementById("nav");
             myNav.appendChild(listItem);
 
-            var episodePanel = document.createElement('div');
-                episodePanel.className = "panel panel-default";
-            var panelHeading = document.createElement('div');
-                panelHeading.className = "panel-heading";
-                panelHeading.id = "episode"+(i+1);
+
             var InfoDiv = document.createElement('div'); 
-                InfoDiv.className= "table-responsive";
-            var QuestionDiv = document.createElement('div');
-                QuestionDiv.className= "table-responsive";
+            InfoDiv.className = "table-responsive";
+            InfoDiv.id = "episode" + episodes[i].number;
             var InfoTable = document.createElement('table'); 
                 InfoTable.className = "table table-bordered table-hover table-condensed";
-            var QuestionTable = document.createElement('table');
-                QuestionTable.className = "table table-bordered table-hover table-condensed";
 
-                panelHeading.textContent = episodes[i].title;
-                var info = episodes[i].info;
+                var info = episodes[i].trivia;
                 var infoTableBody = document.createElement('tbody');
-            for (rows = 0; rows < info.length; rows++) {
                 var infoRow = document.createElement('tr');
-                var infoCol = document.createElement('th');
-                infoCol.textContent = info[rows][0];
-                infoRow.appendChild(infoCol)
-                for (columns = 1; columns < info[rows].length; columns++){
-                    var infoCol = document.createElement('td');
-                    infoCol.textContent = info[rows][columns];
-                    infoRow.appendChild(infoCol);
-                }
+                infoRow.textContent = episodes[i].title;
                 infoTableBody.appendChild(infoRow);
+                var infoRow = document.createElement('tr');
+                var triviaList = document.createElement('ul');
+            for (rows = 0; rows < info.length; rows++) {
+                var listItem = document.createElement('li');
+                    listItem.textContent = info[rows];
+                    triviaList.appendChild(listItem);
+                
             }
+            infoRow.appendChild(triviaList);
+            infoTableBody.appendChild(infoRow);
             InfoTable.appendChild(infoTableBody);
             InfoDiv.appendChild(InfoTable);
 
-            var questions = episodes[i].questions;
-            var questionTableBody = document.createElement('tbody');
-            for (rows = 0; rows < questions.length; rows++) {
-                var questionRow = document.createElement('tr');
-
-                for (columns = 0; columns < questions[rows].length; columns++) {
-                    var questionCol = document.createElement('td');
-                    questionCol.textContent = questions[rows][columns];
-                    questionRow.appendChild(questionCol);
-                }
-                questionTableBody.appendChild(questionRow);
-            }
-            QuestionTable.appendChild(questionTableBody);
-            QuestionDiv.appendChild(QuestionTable);
-
-            episodePanel.appendChild(panelHeading); 
             episodePanel.appendChild(InfoDiv);
-            episodePanel.appendChild(QuestionDiv);
 
             var myNode = document.getElementById("tableList")
             myNode.appendChild(episodePanel);

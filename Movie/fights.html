@@ -120,7 +120,7 @@
     function showEpisode(jsonObj) {
         var episodes = jsonObj['episodes'];
 
-        for (episodeNumber = 0; episodeNumber < episodes.length; i++) {
+        for (episodeNumber = 0; episodeNumber < episodes.length; episodeNumber++) {
             //creates the pagination entry and link for each episode
             var listItem = document.createElement('li');
             var anchor = document.createElement('a');

@@ -24,7 +24,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
-                <img id="logoPic" style="width: auto; height: 50px;" src="/sjMinus-logo.svg">
+                <img id="logoPic" style="width: auto; height: 50px;" src="/SJMinus/sjMinus-logo.svg">
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -71,7 +71,7 @@
     </div>
     <div class="row">
             <div class="col-md-10 panel panel-default">
-                <div class="panel-heading"><h2 id="Name">Placeholder Name <a id="Twitter">Twitter Handle (links to twitter)</a></h2></div>
+                <div class="panel-heading"><h2 id="Name">Placeholder Name </h2><h2><a id="Twitter">Twitter Handle (links to twitter)</a></h2></div>
                 <div class="row">
                     <div class="col-sm-4"> <img id="HeadShot" src="screenjunkies.jpg"/></div>
                     <div class="col-sm-8 table-bordered">
@@ -100,7 +100,14 @@
     });
 </script>
 <script>
-    var requestURL = ' https://kimh2.github.io/SJMinus/Game/Fighters.json';
+
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    };
+    var requestURL = 'https://kimh2.github.io/SJMinus/Bio/' + getUrlParameter('name') + '.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
@@ -111,52 +118,33 @@
         showFighter(FighterResponse);
     }
     function showFighter(jsonObj) {
-        var fighters = jsonObj['Fighters'];
-
-            var FighterPanel = document.createElement('div');
-                FighterPanel.className = "panel panel-default";
-
-            var InfoDiv = document.createElement('div'); 
-                InfoDiv.className= "table-responsive";
-            var InfoTable = document.createElement('table'); 
-                InfoTable.className = "table table-bordered table-hover table-condensed";
-            var infoTableBody = document.createElement('tbody');
-
-            var headerRow = document.createElement('tr');
-            var headerCol = document.createElement('th');
-            headerCol.textContent = fighters[0][0];
-            headerRow.appendChild(headerCol)
-            for (columns = 1; columns < fighters[0].length; columns++) {
-                var headerCol = document.createElement('td');
-                headerCol.textContent = fighters[0][columns];
-                headerRow.appendChild(headerCol);
-            }
-            infoTableBody.appendChild(headerRow);
-
-            for (rows = 1; rows < fighters.length; rows++) {
-                var infoRow = document.createElement('tr');
-                var infoCol = document.createElement('th');
-                var anchor = document.createElement('a');
-                anchor.href = "/bio.html?name="+ fighters[rows][0];
-                anchor.textContent = fighters[rows][1];
-                infoCol.appendChild(anchor);
-                infoRow.appendChild(infoCol)
-
-                for (columns = 2; columns < fighters[rows].length; columns++){
-                    var infoCol = document.createElement('td');
-                    infoCol.textContent = fighters[rows][columns];
-                    infoRow.appendChild(infoCol);
-                }
-                infoTableBody.appendChild(infoRow);
-            }
-            InfoTable.appendChild(infoTableBody);
-            InfoDiv.appendChild(InfoTable);
-
-            FighterPanel.appendChild(InfoDiv);
-
-            var myNode = document.getElementById("tableList")
-            myNode.appendChild(FighterPanel);
-        
+        var nameNode = document.getElementById("Name")
+        nameNode.textContent = jsonObj.Name;
+        var twitterNode = document.getElementById("Twitter")
+        twitterNode.textContent = "@" + jsonObj.Twitter;
+        twitterNode.href = "https://twitter.com/" + jsonObj.Twitter;
+        var imgNode = document.getElementById("HeadShot");
+        imgNode.src = "/SJMinus/Bio/" + jsonObj.Headshot;
+        var MrecordNode = document.getElementById("movieFights")
+        MrecordNode.textContent = jsonObj.MovieFights;
+        var TrecordNode = document.getElementById("tvFights")
+        TrecordNode.textContent = jsonObj.TVFights;
+        var GrecordNode = document.getElementById("gamerFights")
+        GrecordNode.textContent = jsonObj.GamerFights;
+        var beltsNode = document.getElementById("titlesHeld")
+        for (rows = 0; rows < jsonObj.BeltsHeld.length; rows++) {
+            var listItem = document.createElement('li');
+            listItem.textContent = jsonObj.BeltsHeld[rows];
+            beltsNode.appendChild(listItem);
+        }
+        var bioNode = document.getElementById("Bio")
+        bioNode.textContent = jsonObj.Bio;
+        var triviaNode = document.getElementById("titlesHeld")
+        for (rows = 0; rows < jsonObj.BeltsHeld.length; rows++) {
+            var listItem = document.createElement('li');
+            listItem.textContent = jsonObj.Trivia[rows];
+            triviaNode.appendChild(listItem);
+        }
     }
 
 </script>

@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Screenjunkies Moviefights</title>
+
+    <!-- compiled and minified jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
-<link rel="stylesheet" href="default.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="default.css">
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -24,7 +23,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
-                <img id="logoPic" style="width: auto; height: 50px;" src="/sjMinus-logo.svg">
+                <img id="logoPic" style="width: auto; height: 50px;" src="/SJMinus/sjMinus-logo.svg">
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -70,7 +69,7 @@
         </div>
         <div class="col-xs-5">
             <br />
-            <img id="descPic" src="/screenjunkies.jpg">
+            <img id="descriptionPic" src="/SJMinus/screenjunkies.jpg">
         </div>
     </div>
     <!-- Pagination -->
@@ -91,7 +90,7 @@
 
     <div class="row">
         <div id="tableList" class="col-md-10">
-        <!-- EPISODEs fill in here -->        
+        <!-- EPISODES fill in here -->        
         </div>
         
     </div>
@@ -100,13 +99,14 @@
 </div>
 
 <script type="text/javascript">
-
+    //function to drive 'back to top' link on bottom of page
     $('a.back-to-top, a.simple-back-to-top').click(function() {
         $('html,body').animate({ scrollTop: 0 }, 'slow');
         return false;
     });
 </script>
 <script>
+    //function to populate the body of the page by loading JSON
     var requestURL = ' https://kimh2.github.io/SJMinus/Movie/Fights.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
@@ -120,21 +120,23 @@
     function showEpisode(jsonObj) {
         var episodes = jsonObj['episodes'];
 
-        for (i = 0; i < episodes.length; i++) {
+        for (episodeNumber = 0; episodeNumber < episodes.length; i++) {
+            //creates the pagination entry and link for each episode
             var listItem = document.createElement('li');
             var anchor = document.createElement('a');
-            anchor.href = "#episode" + (i + 1);
-            anchor.textContent = (i + 1);
+            anchor.href = "#episode" + (episodeNumber + 1);
+            anchor.textContent = (episodeNumber + 1);
             listItem.appendChild(anchor);
 
             var myNav = document.getElementById("nav");
             myNav.appendChild(listItem);
 
+            //creates the template DOM elements for displaying an episode's information
             var episodePanel = document.createElement('div');
                 episodePanel.className = "panel panel-default";
             var panelHeading = document.createElement('div');
                 panelHeading.className = "panel-heading";
-                panelHeading.id = "episode"+(i+1);
+                panelHeading.id = "episode" + (episodeNumber + 1);
             var InfoDiv = document.createElement('div'); 
                 InfoDiv.className= "table-responsive";
             var QuestionDiv = document.createElement('div');
@@ -144,9 +146,10 @@
             var QuestionTable = document.createElement('table');
                 QuestionTable.className = "table table-bordered table-hover table-condensed";
 
-                panelHeading.textContent = episodes[i].title;
-                var info = episodes[i].info;
+                panelHeading.textContent = episodes[episodeNumber].title;
+                var info = episodes[episodeNumber].info;
                 var infoTableBody = document.createElement('tbody');
+            //populates the information section for each episode
             for (rows = 0; rows < info.length; rows++) {
                 var infoRow = document.createElement('tr');
                 var infoCol = document.createElement('th');
@@ -162,8 +165,9 @@
             InfoTable.appendChild(infoTableBody);
             InfoDiv.appendChild(InfoTable);
 
-            var questions = episodes[i].questions;
+            var questions = episodes[episodeNumber].questions;
             var questionTableBody = document.createElement('tbody');
+            //populates the list of questions and who won each round per episode
             for (rows = 0; rows < questions.length; rows++) {
                 var questionRow = document.createElement('tr');
 
@@ -177,10 +181,12 @@
             QuestionTable.appendChild(questionTableBody);
             QuestionDiv.appendChild(QuestionTable);
 
+            //adds the subsections to the individual episode's display panel
             episodePanel.appendChild(panelHeading); 
             episodePanel.appendChild(InfoDiv);
             episodePanel.appendChild(QuestionDiv);
 
+            //adds each episode's completed panel to the body of the page
             var myNode = document.getElementById("tableList")
             myNode.appendChild(episodePanel);
         }

@@ -71,7 +71,7 @@
     </div>
     <div class="row">
             <div class="col-md-10 panel panel-default">
-                <div class="panel-heading"><h2 id="Name">Placeholder Name </h2><h2><a id="Twitter">Twitter Handle (links to twitter)</a></h2></div>
+                <div class="panel-heading"><h2 id="Name">Placeholder Name <a id="Twitter">Twitter Handle (links to twitter)</a></h2></div>
                 <div class="row">
                     <div class="col-sm-4"> <img style="width: auto; height: auto; max-width:100%" id="HeadShot" src="screenjunkies.jpg"/></div>
                     <div class="col-sm-8 table-bordered">
@@ -119,7 +119,7 @@
     }
     function showFighter(jsonObj) {
         var nameNode = document.getElementById("Name")
-        nameNode.textContent = jsonObj.Name;
+        nameNode.innerHTML = jsonObj.Name + " <a id=\"Twitter\">Twitter Handle (links to twitter)</a>";
         var twitterNode = document.getElementById("Twitter")
         twitterNode.textContent = "@" + jsonObj.Twitter;
         twitterNode.href = "https://twitter.com/" + jsonObj.Twitter;

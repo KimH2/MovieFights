@@ -65,102 +65,58 @@
     <!-- Description -->
     <div class="row">
         <div class="col-xs-7">
-            <h2>Movie Fights Trivia (sorted by episode)</h2>
-            <p id="description"><b>Disclaimer:</b> This site is an unofficial fan effort, every effort has been made to ensure accuracy.</p>
-        </div>
-        <div class="col-xs-5">
-            <br />
-            <img id="descPic" src="/screenjunkies.jpg">
+            <h1>TV Fights Overview</h1>
+            <p id="description"><b>Disclaimer:</b> This site is an unofficial fan effort, every effort has been made to ensure accuracy</p>
         </div>
     </div>
-    <!-- Pagination -->
     <div class="row">
-        <div class="col-md-10">
-            <nav>
-                <ul id="nav" class="pagination pagination-sm">
-                    <li><a>Jump to specific episode on this page:</a></li>
-                   
-                </ul>
-            </nav>
+        <div class="col-sm-4">
+            <div class="row" > <h2>Judge</h2></div>
+            <div class="row" > <img style="width: auto; height: auto; max-width:100%" id="HeadShot" src="../Roxy.jpg" /></div>
+            <div class="row" > <h2><a href="/SJMinus/bio.html?name=RoxyStriar">Roxy Striar</a></h2></div>
+        </div>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-4">
+            <div class="row" > <h2>Fact Checker</h2></div>
+            <div class="row" > <img style="width: auto; height: auto; max-width:100%" id="HeadShot" src="../Billy.jpg" /></div>
+            <div class="row" > <h2><a href="/SJMinus/bio.html?name=BillyBusiness">Bill Patterson aka Billy Business</a></h2></div>
         </div>
     </div>
-
-    <div class="row">
-        <div id="tableList" class="col-md-10">
-        <!-- EPISODE trivia fill in here -->        
+   
+    <div class="row" > 
+        <div class="col-sm-4">
+            <h3>Participants</h3>
+        <ul>
+            <li>1 Judge (usually Roxy)</li>
+            <li>1 Fact Checker (Usually Billy)</li>
+            <li>3 "Fighters"</li>
+        </ul>
         </div>
-        
-    </div>
-
-    <!-- Back-to-top link -->
-    <p><a href="#" class="simple-back-to-top">Back to the top</a></p>
+        <div class="col-sm-4">
+            <h3>Structure:</h3>
+            <dl>
+                <dt>5 preliminary rounds (plus Tiebreakers if needed)</dt>
+                <dd>- Answers are prepared in advance</dd>
+                <dd>- Answers are shared among fighters to prepare counterarguments </dd>
+                <dd>- If 2 fighters pick the same answer a coin flip decides who gets to use it</dd>
+                <dt>5 speed rounds (plus Tiebreaker if needed) </dt>
+                <dd>- Answers are not prepared</dd>
+                <dd>- Each fighter gets 20sec. + a 10sec. rebuttal to argue their case</dd>
+                <dd>- Whoever answers first argues first</dd>
+                <dd>- If both pick the same answer whoever said it first gets to use it</dd>
+            </dl>
+        </div>
+        <div class="col-sm-4">
+            <h3>Judging Criteria:</h3>
+            <ul>
+                <li>Quality of argument made</li>
+                <li>Passion</li>
+                <li>Creativity</li>
+            </ul>
+        </div>
 </div>
-
-<script type="text/javascript">
-
-    $('a.back-to-top, a.simple-back-to-top').click(function() {
-        $('html,body').animate({ scrollTop: 0 }, 'slow');
-        return false;
-    });
-</script>
-<script>
-    var requestURL = ' https://kimh2.github.io/SJMinus/Movie/Trivia.json';
-    var request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
-
-    request.onload = function () {
-        var Episoderesponse = request.response;
-        showEpisode(Episoderesponse);
-    }
-    function showEpisode(jsonObj) {
-        var episodes = jsonObj['episodes'];
-
-        var episodePanel = document.createElement('div');
-
-        for (i = 0; i < episodes.length; i++) {
-            var listItem = document.createElement('li');
-            var anchor = document.createElement('a');
-            anchor.href = "#episode" + episodes[i].number;
-            anchor.textContent = episodes[i].number;
-            listItem.appendChild(anchor);
-
-            var myNav = document.getElementById("nav");
-            myNav.appendChild(listItem);
-
-
-            var InfoDiv = document.createElement('div'); 
-            InfoDiv.className = "table-responsive";
-            InfoDiv.id = "episode" + episodes[i].number;
-            var InfoTable = document.createElement('table'); 
-                InfoTable.className = "table table-bordered table-hover table-condensed";
-
-                var info = episodes[i].trivia;
-                var infoTableBody = document.createElement('tbody');
-                var infoRow = document.createElement('tr');
-                infoRow.textContent = episodes[i].title;
-                infoTableBody.appendChild(infoRow);
-                var infoRow = document.createElement('tr');
-                var triviaList = document.createElement('ul');
-            for (rows = 0; rows < info.length; rows++) {
-                var listItem = document.createElement('li');
-                    listItem.textContent = info[rows];
-                    triviaList.appendChild(listItem);
-                
-            }
-            infoRow.appendChild(triviaList);
-            infoTableBody.appendChild(infoRow);
-            InfoTable.appendChild(infoTableBody);
-            InfoDiv.appendChild(InfoTable);
-
-            episodePanel.appendChild(InfoDiv);
-
-            var myNode = document.getElementById("tableList")
-            myNode.appendChild(episodePanel);
-        }
-    }
-
-</script>
+  
 </body>
 </html>

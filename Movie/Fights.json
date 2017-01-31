@@ -1,4 +1,4 @@
-﻿{
+{
   "episodes": [
     {
       "info": [
@@ -280,7 +280,7 @@
         [ "3: Best Performance from a 2015 Oscar Nominated Actor or Actress?", "", "1", "" ],
         [ "4: Do we really need more Avatar sequels?", "", "1", "" ],
         [ "5: Best biographical movie?", "1", "", "" ],
-        [ "6: Pitch Chris Hemsworth’s next movie?", "", "", "1" ],
+        [ "6: Pitch Chris Hemsworth�s next movie?", "", "", "1" ],
         [ "7: Worst Johnny Depp performance?", "", "", "1" ],
         [ "SPEED A: Worst film starring Adam Sandler?", "X", "1", "" ],
         [ "SPEED B: Who would you save in a fire first? Ben Affleck or Matt Damon?", "X", "", "1" ],
@@ -302,7 +302,7 @@
         [ "2: Should George Lucas have any say in the new Star Wars?", "1", "", "1" ],
         [ "3: Which film would have been better if its original director had made it?", "", "1", "" ],
         [ "4: Best performance by a musician-turned-actor?", "", "1", "" ],
-        [ "5: What’s the best movie of 1995?", "", "1", "" ],
+        [ "5: What�s the best movie of 1995?", "", "1", "" ],
         [ "6: Best use of product placement in a film?", "1", "", "" ],
         [ "7: What film do you wish had bombed?", "", "1", "" ],
         [ "TIE BREAKER: Best twist ending of all time?", "1", "X", "" ],
@@ -741,7 +741,7 @@
         [ "4: Best singular film made from a TV Show?", "1", "", "" ],
         [ "5: Best inspirational speech made from a film?", "", "", "1" ],
         [ "6: Best first movie from any director?", "", "1", "" ],
-        [ "SPEED A: Who is Hollywood’s best Andy?", "", "X", "1" ],
+        [ "SPEED A: Who is Hollywood�s best Andy?", "", "X", "1" ],
         [ "SPEED B: Which one do we watch: Angels in the Outfield or Rookie of the Year?", "", "X", "1" ],
         [ "SPEED C: Best movie starring Robin Williams?", "", "X", "1" ],
         [ "SPEED D: Worst movie starring Tom Cruise?", "", "X", "1" ],
@@ -1783,7 +1783,7 @@
       ],
       "questions": [
         [ "Questions:", "Kevin", "Zack", "Hal" ],
-        [ "1: What was the best moment in Captain Americaː Civil War?", "1", "", "" ],
+        [ "1: What was the best moment in Captain America? Civil War?", "1", "", "" ],
         [ "2: What was your least favorite part or character or moment of Civil War", "", "1", "" ],
         [ "3: Where does Civil War rank among all the MCU films to date?", "1", "", "" ],
         [ "4: Pick a character from Civil War and pitch us their next ultimate solo.", "", "", "1" ],
@@ -1794,7 +1794,7 @@
         [ "SPEED D: In honor of Jumanji, which franchise should The Rock join next?", "", "X", "1" ],
         [ "FINAL SCORES", "3", "1", "5" ]
       ],
-      "title": "Where Does Civil War Rank in the MCU? (w/ Kevin Smithǃ) 14 May 16"
+      "title": "Where Does Civil War Rank in the MCU? (w/ Kevin Smith?) 14 May 16"
     },
     {
       "info": [
@@ -1808,11 +1808,11 @@
         [ "3: What Disney movie should get a darker reboot?", "", "1", "1" ],
         [ "4: Pitch a Tetris movie, you must include at least two actors and a director.", "1", "", "" ],
         [ "5: What movie\u0027s existence makes you most angry?", "", "", "1" ],
-        [ "SPEED A: Bargain bin: Transformersː Revenge of the Fallen or Green Lantern Extended Cut", "X", "", "1" ],
+        [ "SPEED A: Bargain bin: Transformers? Revenge of the Fallen or Green Lantern Extended Cut", "X", "", "1" ],
         [ "SPEED B: If Paul Feig and Judd Apatow were both busy, who should direct a \"Freaks and Geeks\" movie?", "X", "", "1" ],
         [ "SPEED C: What movie character would be most fun to have as a next door neighbor?", "X", "1", "" ],
         [ "SPEED D: Best Ryan Gosling movie?", "X", "1", "" ],
-        [ "SPEED E: What should be the title of Star Warsː Episode VIII?", "X", "", "1" ],
+        [ "SPEED E: What should be the title of Star Wars? Episode VIII?", "X", "", "1" ],
         [ "FINAL SCORES", "1", "4", "6" ]
       ],
       "title": "Who Should Play Female Wolverine (X-23)? 21 May 16"
@@ -2099,7 +2099,7 @@
       ],
       "questions": [
         [ "Questions:", "Coy", "Alicia", "Brett" ],
-        [ "1: Who should direct the Pokémon movie?", "", "1", "" ],
+        [ "1: Who should direct the Pok�mon movie?", "", "1", "" ],
         [ "2: Based on the new Rogue One trailer who is the standout character excluding Jyn and Vader?", "", "1", "" ],
         [ "3: pitch a project for Will Farrell and John C. Reilly", "", "", "1" ],
         [ "4: what is the best film of the 1950\u0027s?", "", "1", "" ],
@@ -2209,7 +2209,7 @@
         [ "SPEED E: Ethan Hunt or Jason Bourne?", "", "1", "X" ],
         [ "FINAL SCORES", "4", "5", "1" ]
       ],
-      "title": "Ghost in the Shell – Will It Work? 24 Sep 16"
+      "title": "Ghost in the Shell � Will It Work? 24 Sep 16"
     },
     {
       "info": [

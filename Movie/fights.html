@@ -107,9 +107,9 @@
 </script>
 <script>
     //function to populate the body of the page by loading JSON
-    var requestURL = ' https://kimh2.github.io/SJMinus/Movie/Fights.json';
+    var requestURL = 'https://kimh2.github.io/SJMinus/Movie/Fights.json';
     var request = new XMLHttpRequest();
-    request.open('GET', requestURL);
+    request.open('GET', requestURL, true);
     request.responseType = 'json';
     request.send();
 
@@ -118,7 +118,7 @@
         showEpisode(Episoderesponse);
     }
     function showEpisode(jsonObj) {
-        var episodes = jsonObj['episodes'];
+        var episodes = jsonObj.episodes;
 
         for (episodeNumber = 0; episodeNumber < episodes.length; episodeNumber++) {
             //creates the pagination entry and link for each episode

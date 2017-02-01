@@ -9,13 +9,13 @@
         [ "Questions:", "Hal", "Spencer", "Nick" ],
         [ "1: Should They Reboot Ghostbusters?", "1", "", "" ],
         [ "2: Should Sony's Spider-Man Join Marvel's The Avengers?", "", "1", "" ],
-        [ "3: Sam Raimi's Spider-Man vs. Marc Webb's Spider-Man?", "1", "", "" ],
+        [ "3: Sam Raimi's Spider-Man vs Marc Webb's Spider-Man?", "1", "", "" ],
         [ "4: Gone Girl: Great or Overrated?", "", "1", "" ],
         [ "5: What's David Fincher's Best Film?", "", "", "1" ],
         [ "6: Should William Shatner Be in Star Trek 3?", "", "", "1" ],
         [ "7: Should We Be Excited for Tomorrowland?", "", "1", "" ],
         [ "8: Could Rush Hour Be A Decent TV Show?", "1", "1", "1" ],
-        [ "9: Does An Iron Man 4 Need Robert Downey Jr.?", "1", "1", "1" ],
+        [ "9: Does An Iron Man 4 Need Robert Downey Jr?", "1", "1", "1" ],
         [ "10: What's The Best Comic Book TV Show?", "", "", "1" ],
         [ "FINAL SCORES", "4", "5", "5" ]
       ],
@@ -33,14 +33,14 @@
         [ "3: Which DC Movie is Most Exciting?", "1", "", "" ],
         [ "4: Which DC Character Needs a Movie?", "", "1", "" ],
         [ "5: Which Marvel Character Needs a Movie?", "1", "", "1" ],
-        [ "6: Who Should be Dr. Strange?", "1", "", "" ],
-        [ "7: Captain America vs. Iron Man", "1", "1", "" ],
+        [ "6: Who Should be Dr Strange?", "1", "", "" ],
+        [ "7: Captain America vs Iron Man", "1", "1", "" ],
         [ "8: Justice League Dream Director", "", "", "1" ],
         [ "9: Best Batman", "", "1", "" ],
-        [ "10: Old X-Men vs. New X-Men", "", "1", "" ],
+        [ "10: Old X-Men vs New X-Men", "", "1", "" ],
         [ "FINAL SCORES", "4", "5", "3" ]
       ],
-      "title": "Captain America vs. Iron Man 19 Oct 14"
+      "title": "Captain America vs Iron Man 19 Oct 14"
     },
     {
       "info": [
@@ -70,11 +70,11 @@
         [ "Questions:", "Hal", "Michael", "Mike" ],
         [ "1: What Phase 3 Marvel Movie Are You Most Excited For?", "1", "", "1" ],
         [ "2: Avengers Infinity War Split Into 2 Parts? Good Idea or Bad Idea? ", "", "", "1" ],
-        [ "3: Who Should Play Captain Marvel?", ".5", "", "1" ],
+        [ "3: Who Should Play Captain Marvel?", "5", "", "1" ],
         [ "4: Which Avenger Should Retire First? ", "1", "1", "1" ],
         [ "5: Which Marvel Villains Should Appear in Phase 3? ", "", "1", "" ],
         [ "6: Should Captain America Winter Soldier Be Nominated For Best Picture?", "1", "", "" ],
-        [ "7: Who Should Play Joker In A Potential Batman Solo Movie?", ".5", "1", "" ],
+        [ "7: Who Should Play Joker In A Potential Batman Solo Movie?", "5", "1", "" ],
         [ "8: Can Seth Rogen Pull Off A Dramatic Role? (What comedian can?)", "", "1", "1" ],
         [ "TIE BREAKER: Most Overrated Movie Of The Last Decade?", "", "X", "1" ],
         [ "FINAL SCORES", "4", "4", "6" ]
@@ -110,7 +110,7 @@
         [ "1: What Do You Think of the Rumored Cast of Suicide Squad?", "", "", "1" ],
         [ "2: Is There Any Hope for the New Fantastic Four?", "1", "1", "" ],
         [ "3: What Other Movie Should Live on as a Cable Show?", "1", "", "" ],
-        [ "4: Can M. Night Shyamalan Make a Comeback?", "", "1", "" ],
+        [ "4: Can M Night Shyamalan Make a Comeback?", "", "1", "" ],
         [ "5: Best Chris: Pine, Hemsworth, Evans or Pratt?", "", "", "1" ],
         [ "6: Best Tarantino Film?", "", "1", "" ],
         [ "7: Who is the Best Sidekick of all Time?", "", "", "1" ],
@@ -219,7 +219,7 @@
         [ "TIE BREAKER E: Best Adam Sandler film?", "X", "", "1" ],
         [ "FINAL SCORES", "1", "6", "7" ]
       ],
-      "title": "Magneto vs. Gandalf?  21 Dec 14"
+      "title": "Magneto vs Gandalf?  21 Dec 14"
     },
     {
       "info": [
@@ -469,8 +469,8 @@
         [ "6: Best movie villain of the 1990s?", "", "1", "" ],
         [ "7: Lamest movie monster of all time?", "", "1", "" ],
         [ "SPEED A: What is Steven Spielberg's worst film?", "1", "", "X" ],
-        [ "SPEED B: You have to listen to one song on repeat forever. My Heart Will Go On from Titanic or Let it Go from Frozen??", "", "1", "X" ],
-        [ "SPEED C: Whose next movie are you more excited for: Michael Bay or M. Night Shyamalan?", "", "1", "X" ],
+        [ "SPEED B: You have to listen to one song on repeat forever My Heart Will Go On from Titanic or Let it Go from Frozen??", "", "1", "X" ],
+        [ "SPEED C: Whose next movie are you more excited for: Michael Bay or M Night Shyamalan?", "", "1", "X" ],
         [ "FINAL SCORES", "3", "6", "1" ]
       ],
       "title": "Star Wars Spinoffs: Good Idea or Bad Idea? 15 Mar 15)"
@@ -511,7 +511,7 @@
         [ "6: Best American remake of a foreign film?", "1", "", "" ],
         [ "7: Best movie cameo?", "1", "", "" ],
         [ "SPEED A: Which do you watch: The Robocop remake or the Psycho remake?", "1", "X", "" ],
-        [ "SPEED B: Worse villain: Arnold Schwarzenegger's Mr. Freeze or Jamie Foxx's Electro?", "", "X", "1" ],
+        [ "SPEED B: Worse villain: Arnold Schwarzenegger's Mr Freeze or Jamie Foxx's Electro?", "", "X", "1" ],
         [ "SPEED C: Discounting the movies, who would win in a fight: Alien or Predator?", "", "X", "1" ],
         [ "SPEED D: Best movie with Jack Black in it?", "1", "X", "" ],
         [ "SPEED E: Best Hollywood James?", "", "X", "" ],
@@ -561,7 +561,7 @@
         [ "7: Pitch the perfect remake movie?", "", "", "1" ],
         [ "TIE BREAKER: Who is the worst Batman: George Clooney or Val Kilmer?", "0", "", "X" ],
         [ "SPEED A: Which do I watch: Mortal Kombat or Street Fighter?", "", "X", "1" ],
-        [ "SPEED B: Worst movie starring Robert Downey Jr.?", "", "X", "1" ],
+        [ "SPEED B: Worst movie starring Robert Downey Jr?", "", "X", "1" ],
         [ "SPEED C: Best Hollywood William?", "", "X", "1" ],
         [ "FINAL SCORES", "2", "2", "6" ]
       ],
@@ -588,7 +588,7 @@
         [ "SPEED E: Which do we watch: Lady in the Water or The Happening?", "1", "X", "" ],
         [ "FINAL SCORES", "7", "2", "5" ]
       ],
-      "title": "Batman v. Superman Trailer: Awesome or Awful? 19 Apr 15"
+      "title": "Batman v Superman Trailer: Awesome or Awful? 19 Apr 15"
     },
     {
       "info": [
@@ -627,7 +627,7 @@
         [ "4: Do we like Jared Leto's Joker pic?", "", "1", "" ],
         [ "5: What franchise deserves its own day like Star Wars?", "1", "", "" ],
         [ "6: What movie needs an all female spinoff movie?", "1", "", "" ],
-        [ "TIE BREAKER: Best movie directed by M. Night Shymalan?", "0", "0", "" ],
+        [ "TIE BREAKER: Best movie directed by M Night Shymalan?", "0", "0", "" ],
         [ "SPEED A: Which do you watch: Avatar or Titanic?", "1", "", "X" ],
         [ "SPEED B: Best Jai Courtney role?", "", "1", "X" ],
         [ "SPEED C: Which movie do we watch on cable if they're both playing at the same time: The Mighty Ducks or The Sandlot?", "", "1", "X" ],
@@ -680,7 +680,7 @@
         [ "SPEED E:  Jurassic Park III or Lethal Weapon 4?", "", "1" ],
         [ "FINAL SCORES", "5", "6" ]
       ],
-      "title": "Best Pixar Movie (CinemaSins vs. Honest Trailers) 17 May 15"
+      "title": "Best Pixar Movie (CinemaSins vs Honest Trailers) 17 May 15"
     },
     {
       "info": [
@@ -853,10 +853,10 @@
         [ "3: What franchise should Michael Bay take over?", "", "", "", "", "", "", "L", "W" ],
         [ "4: Best Chris: Pine, Hemsworth, Evans, or Pratt?", "", "", "W", "", "L", "", "", "" ],
         [ "5: Which X-Man would win The Hunger Games?", "W", "L", "", "", "", "", "", "" ],
-        [ "6: Who would win in a fight: Hulk vs. Darth Vader?", "", "", "W", "", "", "", "", "L" ],
+        [ "6: Who would win in a fight: Hulk vs Darth Vader?", "", "", "W", "", "", "", "", "L" ],
         [ "7: Who wouldd win: MCU Avengers or DCU Justice League?", "L", "", "W", "", "", "", "", "" ]
       ],
-      "title": "*Con Panel* Justice League vs. Avengers 12 Jul 15"
+      "title": "*Con Panel* Justice League vs Avengers 12 Jul 15"
     },
     {
       "info": [
@@ -1003,7 +1003,7 @@
         [ "6: Who would win in a fight: Iron Man or Captain America?", "", "", "", "", "L", "", "W", "" ],
         [ "7: Best Pixar Movie?", "L", "", "", "", "", "", "W", "" ]
       ],
-      "title": "*Con Panel* Han Solo v Indiana Jones. 30 Aug 15"
+      "title": "*Con Panel* Han Solo v Indiana Jones 30 Aug 15"
     },
     {
       "info": [
@@ -1019,12 +1019,12 @@
         [ "5: What superhero deserves an R-rated film?", "1", "", "" ],
         [ "6: What's the best movie toy?", "", "1", "" ],
         [ "SPEED A: Who would be the best director for a remake of the movie Speed?", "1", "", "X" ],
-        [ "SPEED B: Both of these movies are playing on cable. Which one should we watch: The Mummy III: Tomb of the Dragon Emperor or Jurassic Park III?", "1", "", "X" ],
+        [ "SPEED B: Both of these movies are playing on cable Which one should we watch: The Mummy III: Tomb of the Dragon Emperor or Jurassic Park III?", "1", "", "X" ],
         [ "SPEED C: Please name the best movie with \"girl\" or \"girls\" in the title?", "1", "", "X" ],
         [ "SPEED D: What's the better movie location to visit: Hogwarts or Jedi Temple?", "1", "", "X" ],
         [ "FINAL SCORES", "6", "3", "1" ]
       ],
-      "title": "Man of Steel 2 pitches. 6 Sep 15"
+      "title": "Man of Steel 2 pitches 6 Sep 15"
     },
     {
       "info": [
@@ -1039,9 +1039,9 @@
         [ "4: What is the best film from the Lord of the Rings trilogy?", "1", "", "" ],
         [ "5: What's the best performance by a kid in a movie?", "", "1", "" ],
         [ "6: If you had to watch one movie for eternity, which movie would you choose?", "", "1", "" ],
-        [ "SPEED A: These two movies are playing on cable. Which one should I watch: Jurassic World or Wayne's World 2?", "1", "", "X" ],
+        [ "SPEED A: These two movies are playing on cable Which one should I watch: Jurassic World or Wayne's World 2?", "1", "", "X" ],
         [ "SPEED B: Best movie starring Elijah Wood?", "1", "", "X" ],
-        [ "SPEED C: These two movies are in the bargain bin. Which one should I buy: Big or Big Hero 6?", "", "1", "X" ],
+        [ "SPEED C: These two movies are in the bargain bin Which one should I buy: Big or Big Hero 6?", "", "1", "X" ],
         [ "SPEED D: Hollywood's best Elizabeth/Elisabeth?", "1", "", "X" ],
         [ "SPEED E: Best movie directed by Alfred Hitchcock?", "1", "", "X" ],
         [ "FINAL SCORES", "6", "5", "0" ]
@@ -1056,14 +1056,14 @@
       "questions": [
         [ "Questions:", "Scott", "John", "Kim" ],
         [ "1: Who should play Robin in a future Batman movie?", "", "", "1" ],
-        [ "2: Pitch M. Night Shyamalan's next movie?", "", "1", "" ],
+        [ "2: Pitch M Night Shyamalan's next movie?", "", "1", "" ],
         [ "3: What is Johnny Depp's best performance?", "1", "", "" ],
         [ "4: Pitch your dream cast for the Charlie's Angels reboot?", "", "", "1" ],
         [ "5: What is the best Rocky fight?", "1", "", "" ],
         [ "6: If The Jungle Book [2016] starts a new live-action Disney universe - what other classic animated movie should join it?", "1", "", "" ],
-        [ "SPEED A: Both of these movies are in the bargain bin. Which should I buy: Transformers 4 or Indiana Jones 4?", "1", "X", "" ],
+        [ "SPEED A: Both of these movies are in the bargain bin Which should I buy: Transformers 4 or Indiana Jones 4?", "1", "X", "" ],
         [ "SPEED B: Who would be the best director for the remake of the movie Waterworld?", "1", "X", "" ],
-        [ "SPEED C: Both of these graphic novels are playing on cable. Which one should we watch: Watchmen or Sin City?", "", "X", "1" ],
+        [ "SPEED C: Both of these graphic novels are playing on cable Which one should we watch: Watchmen or Sin City?", "", "X", "1" ],
         [ "SPEED D: Best movie with the word \"game\" or \"games\" in the title?", "1", "X", "" ],
         [ "FINAL SCORES", "6", "1", "3" ]
       ],
@@ -1083,14 +1083,14 @@
         [ "5: What's the best animated film not made by Disney or Pixar?", "", "", "1" ],
         [ "6: What movie in the Top 50 of IMDB's Top 250 movies list shouldn't be in the list?", "", "1", "" ],
         [ "SPEED A: Who would be the best director for a remake of the movie Gremlins?", "1", "x", "" ],
-        [ "SPEED B: Both of these movies are playing on cable. Which one should we watch: Doom or Resident Evil?", "", "X", "1" ],
+        [ "SPEED B: Both of these movies are playing on cable Which one should we watch: Doom or Resident Evil?", "", "X", "1" ],
         [ "SPEED C: Tell me the best movie with the word \"lost\" in the title?", "", "X", "1" ],
         [ "SPEED D: Which movie game show would you rather participate in: Running Man or The Hunger Games?", "1", "X", "" ],
         [ "SPEED E: Best movie starring Kevin Bacon?", "1", "X", "" ],
         [ "TIE BREAKER: Who would win in a fight: Peter Jackson's King Kong or Roland Emmerich's Godzilla?", "", "X", "1" ],
         [ "FINAL SCORES", "5", "1", "6" ]
       ],
-      "title": "Pitch Pacific Rim 2. 27 Sep 15"
+      "title": "Pitch Pacific Rim 2 27 Sep 15"
     },
     {
       "info": [
@@ -1106,7 +1106,7 @@
         [ "5: What iconic role do you wish had been played by Nicolas Cage?", "", "", "1" ],
         [ "6: What TV show would have worked better as a movie?", "", "1", "" ],
         [ "SPEED A: Who would be the best director for a movie adaptation of He-Man?", "X", "1", "" ],
-        [ "SPEED B: Both of these movies are playing on cable. Which one should we watch: Men in Black 2 or Mission: Impossible 2?", "X", "1", "" ],
+        [ "SPEED B: Both of these movies are playing on cable Which one should we watch: Men in Black 2 or Mission: Impossible 2?", "X", "1", "" ],
         [ "SPEED C: Best movie with the word \"day\" in the title?", "X", "", "1" ],
         [ "SPEED D: Where would you rather spend a long weekend: Evil Biff's Hill Valley from Back to the Future II or Frank Miller's Sin City?", "X", "1", "" ],
         [ "FINAL SCORES", "0", "6", "4" ]
@@ -1128,7 +1128,7 @@
         [ "6: What is the best movie fight?", "1", "", "" ],
         [ "SPEED A: What sequel would you rather see: Die Hard 6 or Transformers 5? ", "1", "X", "" ],
         [ "SPEED B: Best movie directed by Stanley Kubrick?", "", "X", "1" ],
-        [ "SPEED C: Both of these movies are playing on cable. Which one should we watch: The Land Before Time or An American Tail?", "1", "X", "" ],
+        [ "SPEED C: Both of these movies are playing on cable Which one should we watch: The Land Before Time or An American Tail?", "1", "X", "" ],
         [ "SPEED D: Best movie with the word \"gun\" in the title?", "", "X", "1" ],
         [ "SPEED E: Best action movie made after the year 2001?", "", "X", "1" ],
         [ "TIE BREAKER: Whose powers would you rather have: Jim Carreys The Mask or Robin Williams The Genie?", "1", "X", "" ],
@@ -1146,13 +1146,13 @@
         [ "1: Pitch a Back to the Future sequel, prequel, or reboot worthy of the original?", "", "", "1" ],
         [ "2: What is the best movie of 1985?", "", "1", "" ],
         [ "3: Who should play the young John McClane?", "", "", "1" ],
-        [ "4: King Kong vs. Godzilla vs. ______?", "", "", "1" ],
+        [ "4: King Kong vs Godzilla vs ______?", "", "", "1" ],
         [ "5: Who should be the first female Star Wars director?", "1", "", "" ],
         [ "6: What is the best Coen Brothers comedy?", "", "1", "" ],
         [ "SPEED A: What is the best movie directed by Christopher Guest?", "X", "1", "" ],
         [ "SPEED B: What is the worst movie starring Will Farrell?", "X", "1", "" ],
         [ "SPEED C: Who[m] would you pick to direct a remake of Top Gun?", "X", "1", "" ],
-        [ "SPEED D: These two movies are on cable. Which one do I watch: Animal House or Ferris Bueller's Day Off?", "X", "1", "" ],
+        [ "SPEED D: These two movies are on cable Which one do I watch: Animal House or Ferris Bueller's Day Off?", "X", "1", "" ],
         [ "FINAL SCORES", "1", "6", "3" ]
       ],
       "title": "Dream Back to the Future Sequel 18 Oct 15"
@@ -1170,7 +1170,7 @@
         [ "4: Who is the best horror movie villain of all time?", "", "", "1" ],
         [ "5: Which director would you bring back from the dead to make one more film?", "", "1", "" ],
         [ "6: Who is the best Australian actor?", "", "", "1" ],
-        [ "SPEED A: These two movies are in the bargain bin, and you have to buy one. Which do you choose: The Pacifier or The Tooth Fairy?", "X", "1", "" ],
+        [ "SPEED A: These two movies are in the bargain bin, and you have to buy one Which do you choose: The Pacifier or The Tooth Fairy?", "X", "1", "" ],
         [ "SPEED B: Best movie with \"Witch\" in the title?", "X", "", "1" ],
         [ "SPEED C: Which is better: Back to the Future II or III?", "X", "", "1" ],
         [ "SPEED D: What is the best movie featuring Chris Rock?", "X", "1", "" ],
@@ -1195,7 +1195,7 @@
         [ "6: What is the best ensemble comedy cast?", "", "", "1" ],
         [ "SPEED A: Best movie starring Bradley Cooper?", "X", "1", "" ],
         [ "SPEED B: Best movie with the word \"lost\" in the title?", "X", "", "1" ],
-        [ "SPEED C: These two movies are in the bargain bin. Which one should we buy: Gremlins 2 or Alien 3?", "X", "", "1" ],
+        [ "SPEED C: These two movies are in the bargain bin Which one should we buy: Gremlins 2 or Alien 3?", "X", "", "1" ],
         [ "SPEED D: Which city would you rather visit: the Emerald City of The Wizard of Oz or Cloud City of [The] Empire Strikes Back?", "X", "", "1" ],
         [ "SPEED E: Which director would you pick to remake Jaws?", "X", "1", "" ],
         [ "TIE BREAKER: Hollywood's best Smith?", "X", "", "1" ],
@@ -1240,7 +1240,7 @@
         [ "5: What screenwriter would you like to see write a comic book and for which superhero should they write [for]?", "", "1", "" ],
         [ "6: What movie would make the best Broadway musical?", "", "", "1" ],
         [ "SPEED A: Best movie starring Amy Adams?", "X", "", "1" ],
-        [ "SPEED B: The two movies are in the bargain bin. Which one should I buy: Boogie Nights or Magnolia?", "X", "", "1" ],
+        [ "SPEED B: The two movies are in the bargain bin Which one should I buy: Boogie Nights or Magnolia?", "X", "", "1" ],
         [ "SPEED C: Excluding sequels, best movie with a number in the title?", "X", "", "1" ],
         [ "FINAL SCORES", "1", "2", "6" ]
       ],
@@ -1305,7 +1305,7 @@
         [ "SPEED A: What is the best movie starring a professional athlete?", "X", "1", "" ],
         [ "SPEED B: Who's the better first officer: Spock or Chewbacca?", "X", "", "1" ],
         [ "SPEED C: What director would you choose to do a live-action remake of The Iron Giant?", "X", "1", "" ],
-        [ "SPEED D: These two movies are on cable at the same time. Which one of them do you watch: South Park: Bigger, Longer & Uncut or Team America", "X", "", "1" ],
+        [ "SPEED D: These two movies are on cable at the same time Which one of them do you watch: South Park: Bigger, Longer & Uncut or Team America", "X", "", "1" ],
         [ "FINAL SCORES", "1", "4", "6" ]
       ],
       "title": "Best Moment in the Batman v Superman Trailer? 5 Dec 15"
@@ -1339,7 +1339,7 @@
       ],
       "questions": [
         [ "Questions:", "John", "Doug", "JTE" ],
-        [ "1: Who[m] would you want to cast as Star-Lord's father for Guardians of the Galaxy [Vol.] 2", "", "1", "" ],
+        [ "1: Who[m] would you want to cast as Star-Lord's father for Guardians of the Galaxy [Vol] 2", "", "1", "" ],
         [ "2: Which of these trailers got us most excited?: Teenage Mutant Ninja Turtles: Out of the Shadows, Fantastic Beasts, X-Men: Apocalypse, Star Trek Beyond, or Independence Day: Resurgence", "", "", "1" ],
         [ "3: Based on the new Star Trek Beyond trailer, should we be worried", "", "1", "" ],
         [ "4: What movie has most lived up to the hype?", "", "", "1" ],
@@ -1369,7 +1369,7 @@
         [ "SPEED B: Best movie of all time based on a toy?", "1", "X", "" ],
         [ "SPEED C: Bargain Bin: After Earth or A Million Ways to Die in the West?", "1", "X", "" ],
         [ "SPEED D: Best character from the Rocky series other than Rocky?", "", "X", "1" ],
-        [ "SPEED E: These two movies are playing on cable. Which one do we watch: The Green Lantern or The Green Hornet?", "", "X", "1" ],
+        [ "SPEED E: These two movies are playing on cable Which one do we watch: The Green Lantern or The Green Hornet?", "", "X", "1" ],
         [ "TIE BREAKER: Best movie directed by Ron Howard?", "", "X", "1" ],
         [ "FINAL SCORES", "5", "1", "6" ]
       ],
@@ -1382,13 +1382,13 @@
       ],
       "questions": [
         [ "Questions:", "Dan", "Spencer", "Andy" ],
-        [ "1: Pitch a sequel to The Matrix.", "1", "", "" ],
+        [ "1: Pitch a sequel to The Matrix", "1", "", "" ],
         [ "2: Which project should Will Smith tackle in the new millennium to restore his box office supremacy?", "1", "", "" ],
         [ "3: Who should be cast in a live-action movie of Beavis and Butthead?", "", "1", "" ],
         [ "4: Who had the biggest breakout year in 1999?", "", "", "1" ],
         [ "5: Who should direct Star Wars: Episode II?", "", "", "1" ],
         [ "6: Pitch a movie about the impending Y2K disaster", "", "", "1" ],
-        [ "SPEED A: These two movies are playing at a theater. Which do you watch: Being John Malkovich or Fight Club?", "1", "", "" ],
+        [ "SPEED A: These two movies are playing at a theater Which do you watch: Being John Malkovich or Fight Club?", "1", "", "" ],
         [ "SPEED B: Which performance was the best in Magnolia?", "", "", "1" ],
         [ "SPEED C: What would be the dream property in 1999 to give to Guy Ritchie?", "1", "", "" ],
         [ "SPEED D: Best animated movie of the year: South Park: Bigger, Longer, & Uncut; The Iron Giant; or Toy Story 2?", "", "", "1" ],
@@ -1454,7 +1454,7 @@
         [ "4: Who should play young Han Solo based on this short list that's going around town?", "", "1", "" ],
         [ "5: Pitch us the ultimate director's cut of the movie that you wish you could have seen", "1", "", "" ],
         [ "6: What's the best and most unexpected comedic performance from a usually dramatic actor?", "", "1", "" ],
-        [ "SPEED A: Bargain Bin: The Smurfs 2 or Madea Goes to Jail....?", "1", "", "X" ],
+        [ "SPEED A: Bargain Bin: The Smurfs 2 or Madea Goes to Jail?", "1", "", "X" ],
         [ "SPEED B: Best movie with the word \"son/sun\" in the title?", "1", "", "X" ],
         [ "SPEED C: Pick the best song from any Disney movie", "", "1", "X" ],
         [ "SPEED D: What is the best sequel in the Marvel Cinematic Universe?", "1", "", "X" ],
@@ -1558,12 +1558,12 @@
       "questions": [
         [ "Questions:", "Jason", "Trisha", "Ryan" ],
         [ "1: Which DC character should join the Justice League next?", "1", "", "" ],
-        [ "2: Pitch a Zombieland sequel and a celebrity cameo.", "1", "", "" ],
+        [ "2: Pitch a Zombieland sequel and a celebrity cameo", "1", "", "" ],
         [ "3: What is a role that one actor was born to play?", "", "1", "" ],
         [ "4: What movie aside from Pacific Rim 2 would you like to see Guillermo do next?", "", "", "1" ],
         [ "5: What franchise should crossover with Transformers?", "", "1", "" ],
         [ "SPEED A: Bargain Bin: Dirty Dancing or Ghost?", "1", "", "X" ],
-        [ "SPEED B: Better J.J. Abrams reboot: Star Trek or Star Wars", "", "1", "X" ],
+        [ "SPEED B: Better JJ Abrams reboot: Star Trek or Star Wars", "", "1", "X" ],
         [ "SPEED C: If you have never seen any of James Camerons movies, which one should you watch first?", "", "1", "X" ],
         [ "SPEED D: What is the best movie with the word \"movie\" in the title?", "1", "", "X" ],
         [ "SPEED E: Best Gerard Butler movie?", "1", "", "X" ],
@@ -1578,11 +1578,11 @@
       ],
       "questions": [
         [ "Questions:", "Jeremy", "Scott", "John" ],
-        [ "1: New Ghostbuster trailer: Should we be worried? Pick one moment from the trailer to help justify your argument.", "1", "", "" ],
+        [ "1: New Ghostbuster trailer: Should we be worried? Pick one moment from the trailer to help justify your argument", "1", "", "" ],
         [ "2: What is the most badass action sequel of all time?", "", "1", "" ],
-        [ "3: Now that Leonardo DiCaprio has won his Oscar, pitch us what next project he should tackle.", "", "", "1" ],
-        [ "4: With Whiskey Tango Foxtrox opening this weekend with Tiny Fey, ....what's the best film starring an SNL alum?", "1", "", "" ],
-        [ "5: Dark Tower was announced. What's the best Stephen King adaptation?", "", "", "1" ],
+        [ "3: Now that Leonardo DiCaprio has won his Oscar, pitch us what next project he should tackle", "", "", "1" ],
+        [ "4: With Whiskey Tango Foxtrox opening this weekend with Tiny Fey, what's the best film starring an SNL alum?", "1", "", "" ],
+        [ "5: Dark Tower was announced What's the best Stephen King adaptation?", "", "", "1" ],
         [ "SPEED A: Bargain Bin: Gremlins Special Edition and The Goonies", "1", "X", "" ],
         [ "SPEED B: Best movie with the word \"bad\" in the title", "", "X", "1" ],
         [ "SPEED C: If you've never seen any Christopher Nolan movies, which one would you watch first?", "1", "X", "" ],
@@ -1619,10 +1619,10 @@
       ],
       "questions": [
         [ "Questions:", "Chris", "Brett", "John" ],
-        [ "1: How would you cast the ultimate replacement for Tony Stark/Iron Man? Also, who would direct this new addition to the franchise.", "", "1", "" ],
+        [ "1: How would you cast the ultimate replacement for Tony Stark/Iron Man? Also, who would direct this new addition to the franchise", "", "1", "" ],
         [ "2: What film should have never spawned a sequel and should have remained stand-alone? ", "1", "", "" ],
-        [ "3: We want you guys to pitch us what should Indiana Jones 5 be. You must use Harrison Ford and Spielberg", "", "", "1" ],
-        [ "4: In honor of the first Ben-Hur remake. I want you guys to pick a movie pre-1970 that should be remade in a fun way.", "", "", "1" ],
+        [ "3: We want you guys to pitch us what should Indiana Jones 5 be You must use Harrison Ford and Spielberg", "", "", "1" ],
+        [ "4: In honor of the first Ben-Hur remake I want you guys to pick a movie pre-1970 that should be remade in a fun way", "", "", "1" ],
         [ "5: Which movie that has already come out would you want most to experience in virtual reality?", "1", "", "" ],
         [ "SPEED A: Bargain Bin: Terminator: Genisys or Fantastic 4 (2015)?", "1", "X", "" ],
         [ "SPEED B: Other than Wolverine, who is the best X-Man?", "", "X", "1" ],
@@ -1645,7 +1645,7 @@
         [ "3: What movie superhero would you most want to be for an entire year?", "", "", "W", "L", "W", "", "", "" ],
         [ "4: If you could punch one actor in the face, who would it be?", "", "", "W", "L", "DQ", "W", "", "" ],
         [ "5: What movie character aside from Batman deserves its own Lego play-set and movie?", "", "", "W", "", "", "L", "W", "" ],
-        [ "6: Pitch a massive studio blockbuster that you'd want to remake as a low-budget indie.", "", "", "W", "", "", "", "", "W" ],
+        [ "6: Pitch a massive studio blockbuster that you'd want to remake as a low-budget indie", "", "", "W", "", "", "", "", "W" ],
         [ "Finals:", "Alicia", "Dan" ],
         [ "SPEED A: Bargain Bin: first 4 Superman movies or Batman movies", "1", "" ],
         [ "SPEED B: Best Zack Snyder movie?", "1", "" ],
@@ -1665,7 +1665,7 @@
         [ "1: Was Batman v Superman fun or failure?", "1", "" ],
         [ "2: What was your favorite part of BvS?", "", "1" ],
         [ "3: Should Zack Snyder direct Justice League, and if not, who should?", "1", "" ],
-        [ "4: Pitch your ultimate trinity to stop a global threat.", "1", "" ],
+        [ "4: Pitch your ultimate trinity to stop a global threat", "1", "" ],
         [ "5: Which Justice League member solo movie should we be most excited for?", "", "" ],
         [ "SPEED A: Baragin Bin: Grown Ups 2 and Dumb and Dumber To (Marc vs Dan)", "1", "" ],
         [ "SPEED B: Best comic book movie villain? (John vs Harley)", "1", "" ],
@@ -1686,7 +1686,7 @@
         [ "1: What's the best moment in the Rogue One trailer", "", "1", "" ],
         [ "2: Pitch your standalone Star Wars story", "1", "", "" ],
         [ "3: In honor of Melissa McCarthy's The Boss, what movie character would be the worst to have as your boss?", "1", "", "" ],
-        [ "4: In honor of The B.F.G., what's the best Spielberg movie released post-2000?", "", "1", "" ],
+        [ "4: In honor of The BFG, what's the best Spielberg movie released post-2000?", "", "1", "" ],
         [ "5: In honor of \"After the Credits\", what's the best post-credits scene in a film?", "", "1", "" ],
         [ "SPEED A: Bargain Bin Mean Girls or Clueless? ", "1", "", "X" ],
         [ "SPEED B: Best scene in any Star Wars movie?", "", "1", "X" ],
@@ -1730,7 +1730,7 @@
         [ "3: What fictional character would you most wanted to have taken you to your senior prom?", "1", "", "" ],
         [ "4: What's the most unnecessary sequel of 2016?", "", "1", "" ],
         [ "5: What actor should portray Prince in a biopic?", "", "", "1" ],
-        [ "SPEED A: Bargain bin: After Earth or R.I.P.D.", "X", "1", "" ],
+        [ "SPEED A: Bargain bin: After Earth or RIPD", "X", "1", "" ],
         [ "SPEED B: Best movie western?", "X", "1", "" ],
         [ "SPEED C: Best movie performance by a rock star? ", "X", "1", "" ],
         [ "FINAL SCORES", "1", "5", "2" ]
@@ -1764,7 +1764,7 @@
       "questions": [
         [ "Questions:", "Spencer", "Ken", "Dan" ],
         [ "1: What is the worst MCU villain to date?", "", "", "1" ],
-        [ "2: Pitch a Space Jam sequel crossed over with another franchise.", "", "1", "" ],
+        [ "2: Pitch a Space Jam sequel crossed over with another franchise", "", "1", "" ],
         [ "3: What movie character would be most fun to get drunk with?", "", "", "1" ],
         [ "4: Movie Pitch *Blind \"names from a mug\" Fight*", "", "1", "" ],
         [ "5: Best movie to \"Netflix and Chill\"?", "", "1", "" ],
@@ -1786,7 +1786,7 @@
         [ "1: What was the best moment in Captain America: Civil War?", "1", "", "" ],
         [ "2: What was your least favorite part or character or moment of Civil War", "", "1", "" ],
         [ "3: Where does Civil War rank among all the MCU films to date?", "1", "", "" ],
-        [ "4: Pick a character from Civil War and pitch us their next ultimate solo.", "", "", "1" ],
+        [ "4: Pick a character from Civil War and pitch us their next ultimate solo", "", "", "1" ],
         [ "5: Pitch your ultimate team of any four to five characters that could take out an Avengers team", "", "", "1" ],
         [ "SPEED A: Bargain bin: The Neverending Story or The Goonies?", "", "X", "1" ],
         [ "SPEED B: Which DC Cinematic Universe character should cameo on the \"Flash\" TV show?", "1", "X", "" ],
@@ -1806,7 +1806,7 @@
         [ "1: Who should play X-23?", "", "1", "" ],
         [ "2: Which director should take over the Godzilla franchise?", "", "", "1" ],
         [ "3: What Disney movie should get a darker reboot?", "", "1", "1" ],
-        [ "4: Pitch a Tetris movie, you must include at least two actors and a director.", "1", "", "" ],
+        [ "4: Pitch a Tetris movie, you must include at least two actors and a director", "1", "", "" ],
         [ "5: What movie's existence makes you most angry?", "", "", "1" ],
         [ "SPEED A: Bargain bin: Transformers: Revenge of the Fallen or Green Lantern Extended Cut", "X", "", "1" ],
         [ "SPEED B: If Paul Feig and Judd Apatow were both busy, who should direct a \"Freaks and Geeks\" movie?", "X", "", "1" ],
@@ -1826,9 +1826,9 @@
         [ "Questions:", "Cody", "Sasha", "Coy" ],
         [ "1: Who is the best character so far in this new Star Trek world?", "", "", "1" ],
         [ "2: What Tim Burton movie most deserves a sequel that Tim Burton would direct?", "", "1", "" ],
-        [ "3: Pitch the ultimate 4th Austin Powers movie: Include a title, a log line, a little about the movie - the villain, the love interest, and a celebrity cameo or two.", "", "", "1" ],
+        [ "3: Pitch the ultimate 4th Austin Powers movie: Include a title, a log line, a little about the movie - the villain, the love interest, and a celebrity cameo or two", "", "", "1" ],
         [ "4: What director should return to save a franchise?", "1", "", "" ],
-        [ "5: Pick two characters from any movies that you'd wanna see team up in a buddy movie.", "", "1", "" ],
+        [ "5: Pick two characters from any movies that you'd wanna see team up in a buddy movie", "", "1", "" ],
         [ "SPEED A: Bargain bin: The Amazing Spider-Man 2 or Star Trek Into Darkness", "X", "", "1" ],
         [ "SPEED B: Better X-Men ensemble: classic or post-First Class?", "X", "", "1" ],
         [ "SPEED C: Who is better: Amy Adams or Jennifer Lawrence?", "X", "1", "" ],
@@ -1866,7 +1866,7 @@
         [ "Questions:", "Matt", "Erik", "Roth" ],
         [ "1: Whats the best horror sequel ever?", "", "", "1" ],
         [ "2: What Marvel character do you most want to show up in Black Panther?", "1", "", "" ],
-        [ "3: Pitch a Tom Hanks movie aside from Splash that would be better to be reimagined or rebooted.", "1", "", "" ],
+        [ "3: Pitch a Tom Hanks movie aside from Splash that would be better to be reimagined or rebooted", "1", "", "" ],
         [ "4: What franchise should Daisy Ridley join?", "", "1", "" ],
         [ "5: We want you to plan and execute a heist with any three movie characters", "", "", "1" ],
         [ "SPEED A: Bargain bin: 300 or Watchmen", "", "X", "1" ],
@@ -1883,7 +1883,7 @@
       ],
       "questions": [
         [ "Questions:", "Mike", "Nick", "Joe" ],
-        [ "1: Pitch the Marvel Avengers film...as if it was cast in the '90s.", "", "", "1" ],
+        [ "1: Pitch the Marvel Avengers filmas if it was cast in the '90s", "", "", "1" ],
         [ "2: Pitch a fast food franchise as a movie franchise", "", "", "1" ],
         [ "3: Now that Helen Mirren has joined Furious 8, which Fast and the Furious character should be her love interest?", "1", "", "" ],
         [ "4: Which 1995-1996 movie role would have been better with The Rock as the lead?", "1", "", "" ],
@@ -1893,7 +1893,7 @@
         [ "SPEED A: What director should make the Chewbacca mom movie?", "1", "X", "" ],
         [ "SPEED B: If you had to eat any actor, who would it be?", "", "X", "1" ],
         [ "SPEED C: Please pitch a new Look Who's Talking franchise", "1", "X", "" ],
-        [ "SPEED D: Make a movie better by casting Larry the Cable Guy in the title role.", "1", "X", "" ],
+        [ "SPEED D: Make a movie better by casting Larry the Cable Guy in the title role", "1", "X", "" ],
         [ "FINAL SCORES", "6", "2", "4" ]
       ],
       "title": "*Weird Fight* Pitch the 1990s Avengers! 18 Jun 16"
@@ -1912,8 +1912,8 @@
         [ "5: What movie is so bad that if your significant other loved it, you'd have to break up with them?", "", "1", "" ],
         [ "SPEED A: Bargain bin: Paul Blart: Mall Cop or Alvin and the Chipmunks: The Squeakquel", "X", "1", "" ],
         [ "SPEED B: What movie would be the most fun to get sucked into Last Action Hero style?", "X", "", "1" ],
-        [ "SPEED C: Do your best celebrity impression right now.", "X", "1", "" ],
-        [ "SPEED D: F/Marry/Kill Pixar Edition: Mater, Dory, and Fear.", "X", "1", "" ],
+        [ "SPEED C: Do your best celebrity impression right now", "X", "1", "" ],
+        [ "SPEED D: F/Marry/Kill Pixar Edition: Mater, Dory, and Fear", "X", "1", "" ],
         [ "FINAL SCORES", "1", "5", "3" ]
       ],
       "title": "*Drunk Fight* How Will Darth Vader Return in Rogue One? 25 Jun 16"
@@ -1926,12 +1926,12 @@
       "questions": [
         [ "Questions:", "Doug", "Mark", "Stephen" ],
         [ "1: What was the worst part of Independence Day: Resurgence?", "", "1", "" ],
-        [ "2: Cast a new actress and pitch a Batgirl movie.", "1", "", "" ],
+        [ "2: Cast a new actress and pitch a Batgirl movie", "1", "", "" ],
         [ "3: What is the best movie based on a children's book?", "", "1", "" ],
-        [ "4: Choose a movie with a legendary character, and place them in a completely different setting.", "", "1", "" ],
+        [ "4: Choose a movie with a legendary character, and place them in a completely different setting", "", "1", "" ],
         [ "5: What actor would have to join the cast of the fifth Transformers movie to potentially make us actually see this movie and be excited for it?", "", "", "1" ],
         [ "TIE BREAKER: Best prequel?", "0", "x", "" ],
-        [ "SPEED A: Bargain bin: Dumb and Dumber To or Justin Bieber: Never Say Never.", "1", "", "X" ],
+        [ "SPEED A: Bargain bin: Dumb and Dumber To or Justin Bieber: Never Say Never", "1", "", "X" ],
         [ "SPEED B: If The Purge were real, what movie character would you want to kill the most?", "1", "", "X" ],
         [ "SPEED C: What's a movie that's more than a decade old that you'd want to get a sequel for?", "", "1", "X" ],
         [ "SPEED D: Not including Independence Day: Resurgence, worst Roland Emmerich movie?", "", "1", "X" ],
@@ -1949,7 +1949,7 @@
         [ "1: What is the best movie of the first half of 2016?", "", "", "1" ],
         [ "2: What is the most underrated superhero movie of the past decade?", "", "1", "" ],
         [ "3: Who do you think is the best cinematic talking animal of all time?", "1", "", "" ],
-        [ "4: Pitch a movie where the protagonists are famous side-kicks from other movies.", "1", "", "" ],
+        [ "4: Pitch a movie where the protagonists are famous side-kicks from other movies", "1", "", "" ],
         [ "5: What is Steven Spielberg's worst movie?", "", "", "1" ],
         [ "SPEED A: Bargain bin: Air Bud or Space Jam", "1", "X", "" ],
         [ "SPEED B: Which version is more improved: the Batman v Superman Ultimate Edition or The Watchmen: Director's Cut?", "1", "X", "" ],
@@ -1992,11 +1992,11 @@
         [ "3: Who is the best bad guy?", "", "1", "" ],
         [ "4: Best use of profanity in a movie?", "", "1", "" ],
         [ "SPEED A: Best live-action talking animal movie?", "1", "", "X" ],
-        [ "SPEED B: These two movies are playing on cable. Which do you watch: Mallrats or Dogma?", "1", "", "X" ],
-        [ "SPEED C: Pitch your Chewbacca's revenge story.", "1", "", "X" ],
+        [ "SPEED B: These two movies are playing on cable Which do you watch: Mallrats or Dogma?", "1", "", "X" ],
+        [ "SPEED C: Pitch your Chewbacca's revenge story", "1", "", "X" ],
         [ "FINAL SCORES", "4", "3", "0" ]
       ],
-      "title": "All-Star Movie Fights! Feat. Kevin Smith 22 Jul 16"
+      "title": "All-Star Movie Fights! Feat Kevin Smith 22 Jul 16"
     },
     {
       "info": [
@@ -2008,7 +2008,7 @@
         [ "1: Best Star Trek movie?", "1", "", "" ],
         [ "2: What's the best Star Trek alien species ever?", "1", "", "" ],
         [ "3: Best Star Trek captain?", "", "", "1" ],
-        [ "4: If you're stuck on an alien planet, which Star Trek bridge crew member would you pick to be stranded with? No captains.", "", "", "1" ],
+        [ "4: If you're stuck on an alien planet, which Star Trek bridge crew member would you pick to be stranded with? No captains", "", "", "1" ],
         [ "SPEED A: Of all the TV series, what's the best \"Star Trek\" episode?", "1", "X", "" ],
         [ "SPEED B: Which piece of Star Trek tech do you most wish was real?", "1", "X", "" ],
         [ "FINAL SCORES", "4", "0", "2" ]
@@ -2045,7 +2045,7 @@
         [ "Questions:", "JTE", "Ken", "Andy", "Joe", "Adam", "Roth", "Spencer", "Dan" ],
         [ "1: What is the best scene in a Star Wars movie?", "", "W", "", "", "", "", "", "L" ],
         [ "2: What's the best Will Smith movie?", "W", "", "", "", "", "", "L", "" ],
-        [ "3: Pitch your Suicide Squad picking any three villains from any movie ever.", "", "", "", "W", "", "L", "", "" ],
+        [ "3: Pitch your Suicide Squad picking any three villains from any movie ever", "", "", "", "W", "", "L", "", "" ],
         [ "4: What's the best Pixar movie that's not a Toy Story movie?", "", "", "W", "", "L", "", "", "" ],
         [ "SEMI 1: Best courtroom drama?", "W", "", "", "L", "", "", "", "" ],
         [ "SEMI 2: What is a movie someone you are otherwise not attracted to would have to love to make them appealing enough to hook up with?", "", "W", "L", "", "", "", "", "" ],
@@ -2063,7 +2063,7 @@
         [ "Questions:", "Seth", "Joe", "Spencer" ],
         [ "1: What is the best use of the F Word in a movie?", "1", "", "" ],
         [ "2: Best movie dick?", "1", "", "" ],
-        [ "3: pitch a reboot of a G or PG-rated movie as a hard-R reboot.", "", "", "1" ],
+        [ "3: pitch a reboot of a G or PG-rated movie as a hard-R reboot", "", "", "1" ],
         [ "4: What is the best sex scene in a movie?", "1", "", "" ],
         [ "SPEED A: Bargain bin: The Green Hornet or Spiderman 3", "1", "X", "" ],
         [ "SPEED B: Based on their filmographies, who is the better lay: Zac Efron or James Franco?", "", "X", "1" ],
@@ -2101,7 +2101,7 @@
         [ "Questions:", "Coy", "Alicia", "Brett" ],
         [ "1: Who should direct the Pokemon movie?", "", "1", "" ],
         [ "2: Based on the new Rogue One trailer who is the standout character excluding Jyn and Vader?", "", "1", "" ],
-        [ "3: pitch a project for Will Farrell and John C. Reilly", "", "", "1" ],
+        [ "3: pitch a project for Will Farrell and John C Reilly", "", "", "1" ],
         [ "4: what is the best film of the 1950's?", "", "1", "" ],
         [ "5: What's the best non-horror film from a horror movie director?", "1", "", "" ],
         [ "TIE BREAKER: Best movie featuring John Travolta?", "0", "X", "" ],
@@ -2122,7 +2122,7 @@
         [ "2: Let's cast Justice League Dark and see if we get more excited", "", "", "1" ],
         [ "3: Improve a movie by replacing any actor with Tommy Lee Jones", "", "1", "" ],
         [ "4: What supporting character from any movie deserves their own spin-off movie", "1", "", "" ],
-        [ "5: Pitch a new MCU hero or scene that could make the best Disneyland attraction.", "", "", "1" ],
+        [ "5: Pitch a new MCU hero or scene that could make the best Disneyland attraction", "", "", "1" ],
         [ "SPEED A: Bargain bin: Alvin and the Chipmunks or Garfield: The Movie", "X", "", "1" ],
         [ "SPEED B: What's the best movie with a one-word title?", "X", "", "1" ],
         [ "SPEED C: Wes Anderson or Paul Thomas Anderson?", "X", "", "1" ],
@@ -2162,7 +2162,7 @@
         [ "5: What is the most emotional animated Disney or Pixar death ever?", "", "1" ],
         [ "SPEED A: Tom Hanks or Tom Cruise?", "1", "" ],
         [ "SPEED B: What is the best actor/director collaboration of all time?", "", "1" ],
-        [ "SPEED C: Pitch two actors that we'd all wanna see make a buddy cop movie together.", "1", "" ],
+        [ "SPEED C: Pitch two actors that we'd all wanna see make a buddy cop movie together", "1", "" ],
         [ "SPEED D: Not popcorn, best movie candy or snack?", "", "1" ],
         [ "FINAL SCORES", "3", "6" ]
       ],
@@ -2178,7 +2178,7 @@
         [ "1: Pitch us a random movie that's better with a baby", "", "", "1" ],
         [ "2: What other two actors should join Benicio Del Toro in the new Predator film, and what role should they play?", "", "1", "" ],
         [ "3: What should be the first Pixar movie that should be turned into a live-action movie?", "", "", "1" ],
-        [ "4: Pitch us a sports movie where the team and coach are played by other movie characters.", "1", "", "" ],
+        [ "4: Pitch us a sports movie where the team and coach are played by other movie characters", "1", "", "" ],
         [ "5: What is the best film that will stand the test of time 100 years from now?", "", "", "1" ],
         [ "TIE BREAKER: Wayne's World or Austin Powers?", "0", "", "X" ],
         [ "SPEED A: Bargain bin: 21 Jump Street or Step Brothers", "1", "X", "" ],
@@ -2201,7 +2201,7 @@
         [ "2: Who should Eddie Murphy portray in a superhero movie", "1", "", "" ],
         [ "3: Is Ghost in the Shell gonna be good, great, or awful?", "", "1", "" ],
         [ "4: What should Mission: Impossible 6 entail", "1", "", "" ],
-        [ "5: Pitch a movie that actually deserves a $260 million or more budget.", "", "", "1" ],
+        [ "5: Pitch a movie that actually deserves a $260 million or more budget", "", "", "1" ],
         [ "SPEED A: Bargain bin: Talladega Nights or Zoolander", "1", "", "X" ],
         [ "SPEED B: Jennifer Lawrence or Chris Pratt?", "1", "", "X" ],
         [ "SPEED C: Who should star in the new Scarface?", "", "1", "X" ],
@@ -2225,7 +2225,7 @@
         [ "5: What's a film that you regret paying money to see?", "", "1", "" ],
         [ "SPEED A: Bargain bin: Indiana Jones 4 or Terminator: Genisys", "X", "1", "" ],
         [ "SPEED B: What is the best song from a Disney animated film?", "X", "", "1" ],
-        [ "SPEED C: Which of these would you rather remake: E.T. or Back to the Future?", "X", "1", "" ],
+        [ "SPEED C: Which of these would you rather remake: ET or Back to the Future?", "X", "1", "" ],
         [ "SPEED D: Best Mark Wahlberg movie?", "X", "", "1" ],
         [ "SPEED E: Who would you rather fight: a Xenomorph or a Predator?", "X", "1", "" ],
         [ "FINAL SCORES", "1", "5", "4" ]
@@ -2239,7 +2239,7 @@
       ],
       "questions": [
         [ "Questions:", "John", "Graham", "JTE" ],
-        [ "1: What movie would you want to see an extended edition of;...what would you extend?", "", "", "1" ],
+        [ "1: What movie would you want to see an extended edition of;what would you extend?", "", "", "1" ],
         [ "2: If you could have a commute to work everyday with one movie character, who would you pick?", "", "1", "" ],
         [ "3: What could we do to rejuvenate the Pirates franchise?", "", "", "1" ],
         [ "4: What children's movie should come back as a Netflix series?", "", "", "1" ],
@@ -2263,13 +2263,13 @@
         [ "1: Who should play the Genie in a live-action Aladdin?", "1", "", "" ],
         [ "2: What movie villain ideally should fight the Power Rangers?", "1", "", "" ],
         [ "3: What non-game smartphone app, not including Skynet, or feature would make the best film?", "1", "", "" ],
-        [ "4: Pitch the movie. *Blind \"names from a mug\" Fight*", "", "1", "" ],
+        [ "4: Pitch the movie *Blind \"names from a mug\" Fight*", "", "1", "" ],
         [ "5: What two actors who have never done a sex scene together would share the most memorable sex scene?", "", "", "1" ],
         [ "TIE BREAKER: Hollywood's best Dave or David?", "X", "", "" ],
         [ "TIE BREAKER: Best speech in a movie?", "X", "", "0" ],
         [ "SPEED A: Bargain bin: Supergirl or Howard the Duck", "", "X", "1" ],
         [ "SPEED B: Your very first favorite movie as a child?", "", "X", "1" ],
-        [ "SPEED C: You have to watch the same movie four times in a row. What movie do you pick?", "1", "X", "" ],
+        [ "SPEED C: You have to watch the same movie four times in a row What movie do you pick?", "1", "X", "" ],
         [ "SPEED D: What movie character, not actor, smells the best?", "", "X", "1" ],
         [ "SPEED E: What movie character do you definitely not want as your uber driver home?", "1", "X", "" ],
         [ "FINAL SCORES", "5", "1", "4" ]
@@ -2286,7 +2286,7 @@
         [ "1: Best zombie movie?", "", "", "1" ],
         [ "2: What movie would be better if you added zombies?", "1", "", "" ],
         [ "3: What is the best movie twist of all time?", "", "1", "" ],
-        [ "4: Leonardo DiCaprio is producing a Captain Planet movie. Who should play Captain Planet and what is the premise", "1", "", "" ],
+        [ "4: Leonardo DiCaprio is producing a Captain Planet movie Who should play Captain Planet and what is the premise", "1", "", "" ],
         [ "5: What is the best movie based on a graphic novel?", "", "1", "" ],
         [ "SPEED A: Bargain bin: South Park: Bigger, Longer and Uncut or Team America: World Police", "1", "", "X" ],
         [ "SPEED B: Best movie featuring Tom Hardy in any role?", "", "1", "X" ],
@@ -2303,12 +2303,12 @@
       ],
       "questions": [
         [ "Questions:", "Roger", "Josh", "Ben" ],
-        [ "1: Pitch two iconic horror villains that you would like to see face off in a movie.", "", "", "1" ],
+        [ "1: Pitch two iconic horror villains that you would like to see face off in a movie", "", "", "1" ],
         [ "2: What is the best deadliest horror movie villain?", "", "1", "" ],
         [ "3: What familiar horror trope should be permanently retired?", "1", "", "" ],
         [ "4: What horror movie death would you least want to experience?", "1", "", "" ],
         [ "5: Who is the greatest horror film director?", "", "", "1" ],
-        [ "SPEED A: I, Robot vs. Prometheus?", "1", "X", "" ],
+        [ "SPEED A: I, Robot vs Prometheus?", "1", "X", "" ],
         [ "SPEED B: Who is the most badass survivor from any horror movie?", "", "X", "1" ],
         [ "SPEED C: The Exorcist or The Shining?", "", "X", "1" ],
         [ "SPEED D: What non-horror director should make a horror film?", "", "X", "1" ],

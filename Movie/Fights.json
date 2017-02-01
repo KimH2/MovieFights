@@ -2400,14 +2400,13 @@
         [ "4: If you had to build a religion around the philosophy of any movie character, which one would you pick?", "", "", "W", "W", "L", "", "", "" ],
         [ "5: Improve a movie by swapping out a main character with a talking dog", "", "W", "W", "DQ", "L", "", "", "" ],
         [ "6: In honor of Thanksgiving, what movie family would you want to be part of?", "W", "W", "L", "", "", "", "", "" ],
-        [ "Finals:", "Mike", "Spencer" ],
-        [ "SPEED A: Who will win an Oscar first Will Farrell or Seth Rogen?", "1", "" ],
-        [ "SPEED B: Bargain bin: Now You See Me 2 or My Big Fat Greek Wedding 2", "", "1" ],
-        [ "SPEED C: What is the worst Tom Hanks movie?", "", "1" ],
-        [ "SPEED D: Who would you rather have a drink with: Michael Keaton or Kurt Russell?", "1", "" ],
-        [ "SPEED E: More dissapointing: The Matrix sequels or the Hobbit trilogy?", "", "" ],
-        [ "SPEED E2: What is the best movie with a title that is six words or longer?", "", "1" ],
-        [ "FINAL SCORES", "2", "3" ]
+        [ "SPEED A: Who will win an Oscar first Will Farrell or Seth Rogen?", "", "1", "", "", "", "", "","" ],
+        [ "SPEED B: Bargain bin: Now You See Me 2 or My Big Fat Greek Wedding 2", "1", "","", "", "", "", "","" ],
+        [ "SPEED C: What is the worst Tom Hanks movie?", "1", "","", "", "", "", "","" ],
+        [ "SPEED D: Who would you rather have a drink with: Michael Keaton or Kurt Russell?", "", "1","", "", "", "", "","" ],
+        [ "SPEED E: More dissapointing: The Matrix sequels or the Hobbit trilogy?", "", "","", "", "", "", "","" ],
+        [ "SPEED E2: What is the best movie with a title that is six words or longer?", "1", "","", "", "", "", "","" ],
+        [ "FINAL SCORES", "3", "2" ]
       ],
       "title": "*LFS* Dumbest Movie Premise of All Time? 26 Nov 16"
     },
@@ -2418,42 +2417,39 @@
       ],
       "questions": [
         [ "Questions:", "Hal", "Coy", "Dan" ],
-        [ "1: ", "", "", "" ],
-        [ "2: ", "", "", "" ],
-        [ "3: ", "", "", "" ],
-        [ "4: ", "", "", "" ],
-        [ "5: ", "", "", "" ],
-        [ "SPEED A: ", "", "", "" ],
-        [ "SPEED B: ", "", "", "" ],
-        [ "SPEED C: ", "", "", "" ],
-        [ "SPEED D: ", "", "", "" ],
-        [ "SPEED E: ", "", "", "" ],
-        [ "TIE BREAKER: ", "", "", "" ],
-        [ "FINAL SCORES", "", "", "" ]
+        [ "1: What is the worst Robert DeNiro performance?", "1", "", "" ],
+        [ "2: What is the best Martin Scorsese movie?", "", "", "1" ],
+        [ "3: What is the worst prequel of all time?", "", "", "1" ],
+        [ "4: In honor of Moana, what is the best Disney animal sidekick?", "", "1", "" ],
+        [ "5: What is the worst comic book movie? *Trick Question -Best-*", "", "1", "" ],
+        [ "SPEED A: Bargain bin: Independence Day: Resurgence or Alice Through the Looking Glass", "X", "", "1" ],
+        [ "SPEED B: Best movie facial hair?", "X", "1", "" ],
+        [ "SPEED C: For the rest of your life, you can only watch one of these actors movies Who would you pick: Keanu Reeves or Matt Damon?", "X", "1", "" ],
+        [ "SPEED D: What movie is most improved by a second viewing?", "X", "", "1" ],
+        [ "SPEED E: Best movie whose title has four words?", "X", "", "1" ],
+        [ "FINAL SCORES", "1", "4", "5" ]
       ],
       "title": "Worst Comic Book Movie 3 Dec 16"
     },
     {
       "info": [
-        [ "Fighters", "", "", "" ],
-        [ "Outcome", "", "", "" ]
+        [ "Fighters", "Kristian Harloff", "Dan Casey", "Emma Fyffe" ],
+        [ "Outcome", "Win", "Second", "Third" ]
       ],
       "questions": [
-        [ "Questions:", "", "", "" ],
-        [ "1: ", "", "", "" ],
-        [ "2: ", "", "", "" ],
-        [ "3: ", "", "", "" ],
-        [ "4: ", "", "", "" ],
-        [ "5: ", "", "", "" ],
-        [ "SPEED A: ", "", "", "" ],
-        [ "SPEED B: ", "", "", "" ],
-        [ "SPEED C: ", "", "", "" ],
-        [ "SPEED D: ", "", "", "" ],
-        [ "SPEED E: ", "", "", "" ],
-        [ "TIE BREAKER: ", "", "", "" ],
-        [ "FINAL SCORES", "", "", "" ]
+        [ "Questions:", "Kristian", "Dan", "Emma" ],
+        [ "1: who gave the best individual performance of any Star Wars film?", "1", "", "" ],
+        [ "2: If you could pick a single character from all of Star Wars, who would come out on top in a lightsaber battle royale?", "1", "", "" ],
+        [ "3: Pitch a movie set in the Old Republic", "", "1", "" ],
+        [ "4: What is the best line of dialogue from any Star Wars movie?", "", "1", "" ],
+        [ "5: If you had to spend a year on any Star Wars moon or planet, which one would you choose?", "", "", "1" ],
+        [ "SPEED A: Who is the best Star Wars droid?", "", "1", "X" ],
+        [ "SPEED B: What is the overall best lightsaber fight?", "1", "", "X" ],
+        [ "SPEED C: Tell me something in the Star Wars universe that's worse than Jar Jar?", "1", "", "X" ],
+        [ "SPEED D: Other than the Millenium Falcon, what's the best ship?", "1", "", "X" ],
+        [ "FINAL SCORES", "5", "3", "1" ]
       ],
-      "title": ""
+      "title": "Greatest Lightsaber Fighter - Star Wars: MOVIE FIGHTS! 10 Dec 16"
     },
     {
       "info": [

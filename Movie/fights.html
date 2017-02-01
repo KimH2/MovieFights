@@ -114,8 +114,8 @@
     request.send();
 
     request.onload = function () {
-        var Episoderesponse = request.response;
-        showEpisode(Episoderesponse);
+            var Episoderesponse = request.response;
+            showEpisode(Episoderesponse);
     }
     function showEpisode(jsonObj) {
         var episodes = jsonObj.episodes;

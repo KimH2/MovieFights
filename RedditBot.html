@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!-- Loading jQuery and the API wrapper files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://not-an-aardvark.github.io/snoowrap/snoowrap-v1.12.0.js"></script>
+</head>
+<body>
+    <!-- Form for populating information for bot to process -->
+    You Have to fill this out once per post (basically once per team)<br /><br />
+    Team: (put in the subreddit name without the /r/ )<input type="text" id="team"/> Link:<input type="url" id="link" /> <br /><br />
+    Title:<input type="text" id="title" /><br /> <br />
+    Message (keep it simple, this isn't a full post editor): <textarea type="text" id="message"></textarea><br /> <br />
+
+    Users: (Just paste the filtered down username column for that team, it expects 1 username per line and will add the /u/ automatically )<br /><textarea id="users"></textarea> <br />
+    
+    <button id="myButton">Make Post</button>
+
+    <script type="text/javascript">
+        //connecting to the Reddit API through a javascript wrapper
+        //    Password:<input type="text" id="password" /><br /> <br />
+        //      Secret:<input type="text" id="secret" /><br /> <br />
+        const REQUEST = new snoowrap({
+            userAgent: 'weighReminderBot/0.0.1 by KimH2',
+            clientId: 'JAWh0JlpYWn2qQ',
+            clientSecret: 'Y0wB21H1wANU2e-8I0mmc7NhtN0',//$('#secret').val(),
+            username: 'WeighInReminderBot',
+            password: 'challengeAdmin'
+        });
+
+        //action called by the form submission buttom
+        $('#myButton').click(function () {
+            submitPost();
+        });
+
+        //creates the actual post and subsequent comments
+        function submitPost() {
+            //create the top level post in the specified team's subreddit
+            var submission = REQUEST.getSubreddit($('#team').val()).submitSelfpost({
+                title: $('#title').val(),
+                text: $('#message').val()
+            });
+
+
+            var users = $('#users').val().split('\n');
+            var trio = 0;
+            var commentText = "";
+            for (var userCount = 0; userCount < users.length; userCount++) {
+                trio++;
+                //formats username and adds user to the comment body
+                commentText += "u/" + users[userCount] + " ";
+
+                //reddit limits you to a max of 3 user mentions per comment to prevent spam
+                if (trio == 3) {
+                    //finish comment body once 3 users reached and submit it
+                    commentText += "This is a friendly reminder to log your weight this week for the challenge. [Log it here](" + $('#link').val() + ")";
+                    submission.reply(commentText);
+                    commentText = "";
+                    trio = 0;
+                }
+            }
+            //catches any remaining users when total user count isn't evenly divided by 3
+            if (trio != 0) {
+                commentText += "This is a friendly reminder to log your weight this week for the challenge. [Log it here](" + $('#link').val() + ")";
+                submission.reply(commentText);
+            }
+        }
+    </script>
+</body>
+</html>

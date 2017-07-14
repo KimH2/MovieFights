@@ -14,7 +14,7 @@
     Team: (put in the subreddit name without the /r/ )<input type="text" id="team"/> Link:<input type="url" id="link" /> <br /><br />
     Title:<input type="text" id="title" /><br /> <br />
     Message (keep it simple, this isn't a full post editor): <textarea type="text" id="message"></textarea><br /> <br />
-
+    Message for the comment body (what comes between the usernames and the link):<textarea type="text" id="comment"></textarea><br /> <br />
     Users: (Just paste the filtered down username column for that team, it expects 1 username per line and will add the /u/ automatically )<br /><textarea id="users"></textarea> <br />
     
     <button id="myButton">Make Post</button>
@@ -56,7 +56,7 @@
                 //reddit limits you to a max of 3 user mentions per comment to prevent spam
                 if (trio == 3) {
                     //finish comment body once 3 users reached and submit it
-                    commentText += "This is a friendly reminder to log your weight this week for the challenge. [Log it here](" + $('#link').val() + ")";
+                    commentText += $('#comment').val()+ "[Log it here](" + $('#link').val() + ")";
                     submission.reply(commentText);
                     commentText = "";
                     trio = 0;

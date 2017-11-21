@@ -57,7 +57,7 @@
                 if (trio == 3) {
                     //finish comment body once 3 users reached and submit it
                     commentText += $('#comment').val()+ "[Log it here](" + $('#link').val() + ")";
-                    setTimeout(function () {
+                    setTimeout(function (commentText) {
                         submission.reply(commentText);
                     }, 5000)
                     commentText = "";
